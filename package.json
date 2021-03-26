@@ -53,6 +53,7 @@
     "@nomiclabs/hardhat-web3": "^2.0.0",
     "@openzeppelin/docs-utils": "^0.1.0",
     "@openzeppelin/test-helpers": "^0.5.9",
+    "@truffle/hdwallet-provider": "^1.2.5",
     "chai": "^4.2.0",
     "eslint": "^6.5.1",
     "eslint-config-standard": "^14.1.1",
