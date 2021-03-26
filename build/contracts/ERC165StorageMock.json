@@ -1,0 +1,456 @@
+{
+  "contractName": "ERC165StorageMock",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "bytes4",
+          "name": "interfaceId",
+          "type": "bytes4"
+        }
+      ],
+      "name": "supportsInterface",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "bytes4",
+          "name": "interfaceId",
+          "type": "bytes4"
+        }
+      ],
+      "name": "registerInterface",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.0+commit.c7dfd78e\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"bytes4\",\"name\":\"interfaceId\",\"type\":\"bytes4\"}],\"name\":\"registerInterface\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"bytes4\",\"name\":\"interfaceId\",\"type\":\"bytes4\"}],\"name\":\"supportsInterface\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{\"supportsInterface(bytes4)\":{\"details\":\"See {IERC165-supportsInterface}.\"}},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/C/Users/RogerGangaSundararaj/Documents/GitHub/openzeppelin-contracts/contracts/mocks/ERC165StorageMock.sol\":\"ERC165StorageMock\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/C/Users/RogerGangaSundararaj/Documents/GitHub/openzeppelin-contracts/contracts/mocks/ERC165StorageMock.sol\":{\"keccak256\":\"0x2deb46d13d021d60e2d420d58b3153f9c07e8e3ae7cdcee72cd1fd3b2145c72c\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://ed55b8dc08d2e2893d39829000474796a4ce455fd75d149eb3f179fece7b76a5\",\"dweb:/ipfs/QmTtqJQsjKMts5JinSjpVtGsDC8N8r2ULsYxQUpDoSzuC3\"]},\"/C/Users/RogerGangaSundararaj/Documents/GitHub/openzeppelin-contracts/contracts/utils/introspection/ERC165.sol\":{\"keccak256\":\"0x071cfd008ed1810ddf23f56bd1ce2f0c3983bc291559067e94618547f579e1f2\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://a3235dc4cbf8fe1bde8426a0515c2d19205953cce2bef84e635a74b1b0140250\",\"dweb:/ipfs/QmcLniP23L9VH3rSdoE4YnLosayZELS38z6HJCZQ3Q4Vq2\"]},\"/C/Users/RogerGangaSundararaj/Documents/GitHub/openzeppelin-contracts/contracts/utils/introspection/ERC165Storage.sol\":{\"keccak256\":\"0xc5b886bebebc53981b4035ad0406dc7dc86c4a30750a2bfe6ad1e67c40c16751\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://c13640b439006873977db8a671f8fa6377dcd70471bfb6ca587878bbb58247b4\",\"dweb:/ipfs/Qmdo6Ry3hJGjuVJWn9529MU2ZuF1eGvjDcWi2zeCYqD98K\"]},\"/C/Users/RogerGangaSundararaj/Documents/GitHub/openzeppelin-contracts/contracts/utils/introspection/IERC165.sol\":{\"keccak256\":\"0x7e30ce048ac2ce3cc97d725487ed5a82192bb939456f46e0cbe38f1b48644f9e\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://93406f5266094615e2b829d0eb4a3a668c72a3a6562da91a9ea9044cd001dd80\",\"dweb:/ipfs/QmUqT5ZLn5HTvE4Bas9BA5RSCamz4p3KwbvEsNvNJ2taav\"]}},\"version\":1}",
+  "bytecode": "0x608060405234801561001057600080fd5b506103a7806100206000396000f3fe608060405234801561001057600080fd5b50600436106100365760003560e01c806301ffc9a71461003b578063214cdb801461006b575b600080fd5b6100556004803603810190610050919061025e565b610087565b60405161006291906102d6565b60405180910390f35b6100856004803603810190610080919061025e565b6100fe565b005b60006100928261010a565b806100f75750600080837bffffffffffffffffffffffffffffffffffffffffffffffffffffffff19167bffffffffffffffffffffffffffffffffffffffffffffffffffffffff1916815260200190815260200160002060009054906101000a900460ff165b9050919050565b61010781610174565b50565b60007f01ffc9a7000000000000000000000000000000000000000000000000000000007bffffffffffffffffffffffffffffffffffffffffffffffffffffffff1916827bffffffffffffffffffffffffffffffffffffffffffffffffffffffff1916149050919050565b63ffffffff60e01b817bffffffffffffffffffffffffffffffffffffffffffffffffffffffff191614156101dd576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004016101d4906102f1565b60405180910390fd5b6001600080837bffffffffffffffffffffffffffffffffffffffffffffffffffffffff19167bffffffffffffffffffffffffffffffffffffffffffffffffffffffff1916815260200190815260200160002060006101000a81548160ff02191690831515021790555050565b6000813590506102588161035a565b92915050565b60006020828403121561027057600080fd5b600061027e84828501610249565b91505092915050565b61029081610322565b82525050565b60006102a3601c83610311565b91507f4552433136353a20696e76616c696420696e74657266616365206964000000006000830152602082019050919050565b60006020820190506102eb6000830184610287565b92915050565b6000602082019050818103600083015261030a81610296565b9050919050565b600082825260208201905092915050565b60008115159050919050565b60007fffffffff0000000000000000000000000000000000000000000000000000000082169050919050565b6103638161032e565b811461036e57600080fd5b5056fea2646970667358221220e6b564d78b31f704dd8f9a24a9ab9c267378fe77e42ca06acbaf3f7d44462f9a64736f6c63430008000033",
+  "deployedBytecode": "0x608060405234801561001057600080fd5b50600436106100365760003560e01c806301ffc9a71461003b578063214cdb801461006b575b600080fd5b6100556004803603810190610050919061025e565b610087565b60405161006291906102d6565b60405180910390f35b6100856004803603810190610080919061025e565b6100fe565b005b60006100928261010a565b806100f75750600080837bffffffffffffffffffffffffffffffffffffffffffffffffffffffff19167bffffffffffffffffffffffffffffffffffffffffffffffffffffffff1916815260200190815260200160002060009054906101000a900460ff165b9050919050565b61010781610174565b50565b60007f01ffc9a7000000000000000000000000000000000000000000000000000000007bffffffffffffffffffffffffffffffffffffffffffffffffffffffff1916827bffffffffffffffffffffffffffffffffffffffffffffffffffffffff1916149050919050565b63ffffffff60e01b817bffffffffffffffffffffffffffffffffffffffffffffffffffffffff191614156101dd576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004016101d4906102f1565b60405180910390fd5b6001600080837bffffffffffffffffffffffffffffffffffffffffffffffffffffffff19167bffffffffffffffffffffffffffffffffffffffffffffffffffffffff1916815260200190815260200160002060006101000a81548160ff02191690831515021790555050565b6000813590506102588161035a565b92915050565b60006020828403121561027057600080fd5b600061027e84828501610249565b91505092915050565b61029081610322565b82525050565b60006102a3601c83610311565b91507f4552433136353a20696e76616c696420696e74657266616365206964000000006000830152602082019050919050565b60006020820190506102eb6000830184610287565b92915050565b6000602082019050818103600083015261030a81610296565b9050919050565b600082825260208201905092915050565b60008115159050919050565b60007fffffffff0000000000000000000000000000000000000000000000000000000082169050919050565b6103638161032e565b811461036e57600080fd5b5056fea2646970667358221220e6b564d78b31f704dd8f9a24a9ab9c267378fe77e42ca06acbaf3f7d44462f9a64736f6c63430008000033",
+  "immutableReferences": {},
+  "sourceMap": "116:158:31:-:0;;;;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "116:158:31:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;544:190:132;;;;;;;;;;;;;:::i;:::-;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;167:104:31;;;;;;;;;;;;;:::i;:::-;;:::i;:::-;;544:190:132;629:4;653:36;677:11;653:23;:36::i;:::-;:73;;;;693:20;:33;714:11;693:33;;;;;;;;;;;;;;;;;;;;;;;;;;;653:73;646:80;;544:190;;;:::o;167:104:31:-;232:31;251:11;232:18;:31::i;:::-;167:104;:::o;787:157:130:-;872:4;911:25;896:40;;;:11;:40;;;;889:47;;787:157;;;:::o;1141:201:132:-;1240:10;1225:25;;:11;:25;;;;;1217:66;;;;;;;;;;;;:::i;:::-;;;;;;;;;1330:4;1294:20;:33;1315:11;1294:33;;;;;;;;;;;;;;;;;;:40;;;;;;;;;;;;;;;;;;1141:201;:::o;7:137:143:-;;90:6;77:20;68:29;;106:32;132:5;106:32;:::i;:::-;58:86;;;;:::o;150:260::-;;257:2;245:9;236:7;232:23;228:32;225:2;;;273:1;270;263:12;225:2;316:1;341:52;385:7;376:6;365:9;361:22;341:52;:::i;:::-;331:62;;287:116;215:195;;;;:::o;416:109::-;497:21;512:5;497:21;:::i;:::-;492:3;485:34;475:50;;:::o;531:326::-;;694:67;758:2;753:3;694:67;:::i;:::-;687:74;;791:30;787:1;782:3;778:11;771:51;848:2;843:3;839:12;832:19;;677:180;;;:::o;863:210::-;;988:2;977:9;973:18;965:26;;1001:65;1063:1;1052:9;1048:17;1039:6;1001:65;:::i;:::-;955:118;;;;:::o;1079:419::-;;1283:2;1272:9;1268:18;1260:26;;1332:9;1326:4;1322:20;1318:1;1307:9;1303:17;1296:47;1360:131;1486:4;1360:131;:::i;:::-;1352:139;;1250:248;;;:::o;1504:169::-;;1622:6;1617:3;1610:19;1662:4;1657:3;1653:14;1638:29;;1600:73;;;;:::o;1679:90::-;;1756:5;1749:13;1742:21;1731:32;;1721:48;;;:::o;1775:149::-;;1851:66;1844:5;1840:78;1829:89;;1819:105;;;:::o;1930:120::-;2002:23;2019:5;2002:23;:::i;:::-;1995:5;1992:34;1982:2;;2040:1;2037;2030:12;1982:2;1972:78;:::o",
+  "source": "// SPDX-License-Identifier: MIT\r\n\r\npragma solidity ^0.8.0;\r\n\r\nimport \"../utils/introspection/ERC165Storage.sol\";\r\n\r\ncontract ERC165StorageMock is ERC165Storage {\r\n    function registerInterface(bytes4 interfaceId) public {\r\n        _registerInterface(interfaceId);\r\n    }\r\n}\r\n",
+  "sourcePath": "C:/Users/RogerGangaSundararaj/Documents/GitHub/openzeppelin-contracts/contracts/mocks/ERC165StorageMock.sol",
+  "ast": {
+    "absolutePath": "/C/Users/RogerGangaSundararaj/Documents/GitHub/openzeppelin-contracts/contracts/mocks/ERC165StorageMock.sol",
+    "exportedSymbols": {
+      "ERC165": [
+        16064
+      ],
+      "ERC165Storage": [
+        16319
+      ],
+      "ERC165StorageMock": [
+        3393
+      ],
+      "IERC165": [
+        16390
+      ]
+    },
+    "id": 3394,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 3379,
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "35:23:31"
+      },
+      {
+        "absolutePath": "/C/Users/RogerGangaSundararaj/Documents/GitHub/openzeppelin-contracts/contracts/utils/introspection/ERC165Storage.sol",
+        "file": "../utils/introspection/ERC165Storage.sol",
+        "id": 3380,
+        "nodeType": "ImportDirective",
+        "scope": 3394,
+        "sourceUnit": 16320,
+        "src": "62:50:31",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "abstract": false,
+        "baseContracts": [
+          {
+            "baseName": {
+              "id": 3381,
+              "name": "ERC165Storage",
+              "nodeType": "IdentifierPath",
+              "referencedDeclaration": 16319,
+              "src": "146:13:31"
+            },
+            "id": 3382,
+            "nodeType": "InheritanceSpecifier",
+            "src": "146:13:31"
+          }
+        ],
+        "contractDependencies": [
+          16064,
+          16319,
+          16390
+        ],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 3393,
+        "linearizedBaseContracts": [
+          3393,
+          16319,
+          16064,
+          16390
+        ],
+        "name": "ERC165StorageMock",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 3391,
+              "nodeType": "Block",
+              "src": "221:50:31",
+              "statements": [
+                {
+                  "expression": {
+                    "arguments": [
+                      {
+                        "id": 3388,
+                        "name": "interfaceId",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 3384,
+                        "src": "251:11:31",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_bytes4",
+                          "typeString": "bytes4"
+                        }
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_bytes4",
+                          "typeString": "bytes4"
+                        }
+                      ],
+                      "id": 3387,
+                      "name": "_registerInterface",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 16318,
+                      "src": "232:18:31",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_internal_nonpayable$_t_bytes4_$returns$__$",
+                        "typeString": "function (bytes4)"
+                      }
+                    },
+                    "id": 3389,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "232:31:31",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 3390,
+                  "nodeType": "ExpressionStatement",
+                  "src": "232:31:31"
+                }
+              ]
+            },
+            "functionSelector": "214cdb80",
+            "id": 3392,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "registerInterface",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 3385,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 3384,
+                  "mutability": "mutable",
+                  "name": "interfaceId",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 3392,
+                  "src": "194:18:31",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bytes4",
+                    "typeString": "bytes4"
+                  },
+                  "typeName": {
+                    "id": 3383,
+                    "name": "bytes4",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "194:6:31",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bytes4",
+                      "typeString": "bytes4"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "193:20:31"
+            },
+            "returnParameters": {
+              "id": 3386,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "221:0:31"
+            },
+            "scope": 3393,
+            "src": "167:104:31",
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "public"
+          }
+        ],
+        "scope": 3394,
+        "src": "116:158:31"
+      }
+    ],
+    "src": "35:241:31"
+  },
+  "legacyAST": {
+    "absolutePath": "/C/Users/RogerGangaSundararaj/Documents/GitHub/openzeppelin-contracts/contracts/mocks/ERC165StorageMock.sol",
+    "exportedSymbols": {
+      "ERC165": [
+        16064
+      ],
+      "ERC165Storage": [
+        16319
+      ],
+      "ERC165StorageMock": [
+        3393
+      ],
+      "IERC165": [
+        16390
+      ]
+    },
+    "id": 3394,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 3379,
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "35:23:31"
+      },
+      {
+        "absolutePath": "/C/Users/RogerGangaSundararaj/Documents/GitHub/openzeppelin-contracts/contracts/utils/introspection/ERC165Storage.sol",
+        "file": "../utils/introspection/ERC165Storage.sol",
+        "id": 3380,
+        "nodeType": "ImportDirective",
+        "scope": 3394,
+        "sourceUnit": 16320,
+        "src": "62:50:31",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "abstract": false,
+        "baseContracts": [
+          {
+            "baseName": {
+              "id": 3381,
+              "name": "ERC165Storage",
+              "nodeType": "IdentifierPath",
+              "referencedDeclaration": 16319,
+              "src": "146:13:31"
+            },
+            "id": 3382,
+            "nodeType": "InheritanceSpecifier",
+            "src": "146:13:31"
+          }
+        ],
+        "contractDependencies": [
+          16064,
+          16319,
+          16390
+        ],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 3393,
+        "linearizedBaseContracts": [
+          3393,
+          16319,
+          16064,
+          16390
+        ],
+        "name": "ERC165StorageMock",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 3391,
+              "nodeType": "Block",
+              "src": "221:50:31",
+              "statements": [
+                {
+                  "expression": {
+                    "arguments": [
+                      {
+                        "id": 3388,
+                        "name": "interfaceId",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 3384,
+                        "src": "251:11:31",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_bytes4",
+                          "typeString": "bytes4"
+                        }
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_bytes4",
+                          "typeString": "bytes4"
+                        }
+                      ],
+                      "id": 3387,
+                      "name": "_registerInterface",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 16318,
+                      "src": "232:18:31",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_internal_nonpayable$_t_bytes4_$returns$__$",
+                        "typeString": "function (bytes4)"
+                      }
+                    },
+                    "id": 3389,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "232:31:31",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 3390,
+                  "nodeType": "ExpressionStatement",
+                  "src": "232:31:31"
+                }
+              ]
+            },
+            "functionSelector": "214cdb80",
+            "id": 3392,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "registerInterface",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 3385,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 3384,
+                  "mutability": "mutable",
+                  "name": "interfaceId",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 3392,
+                  "src": "194:18:31",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bytes4",
+                    "typeString": "bytes4"
+                  },
+                  "typeName": {
+                    "id": 3383,
+                    "name": "bytes4",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "194:6:31",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bytes4",
+                      "typeString": "bytes4"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "193:20:31"
+            },
+            "returnParameters": {
+              "id": 3386,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "221:0:31"
+            },
+            "scope": 3393,
+            "src": "167:104:31",
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "public"
+          }
+        ],
+        "scope": 3394,
+        "src": "116:158:31"
+      }
+    ],
+    "src": "35:241:31"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.0+commit.c7dfd78e.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.2.3",
+  "updatedAt": "2021-03-26T09:42:08.603Z",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {
+      "supportsInterface(bytes4)": {
+        "details": "See {IERC165-supportsInterface}."
+      }
+    },
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}

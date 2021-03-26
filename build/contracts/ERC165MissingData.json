@@ -1,0 +1,245 @@
+{
+  "contractName": "ERC165MissingData",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "bytes4",
+          "name": "interfaceId",
+          "type": "bytes4"
+        }
+      ],
+      "name": "supportsInterface",
+      "outputs": [],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.0+commit.c7dfd78e\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"bytes4\",\"name\":\"interfaceId\",\"type\":\"bytes4\"}],\"name\":\"supportsInterface\",\"outputs\":[],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/C/Users/RogerGangaSundararaj/Documents/GitHub/openzeppelin-contracts/contracts/mocks/ERC165/ERC165MissingData.sol\":\"ERC165MissingData\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/C/Users/RogerGangaSundararaj/Documents/GitHub/openzeppelin-contracts/contracts/mocks/ERC165/ERC165MissingData.sol\":{\"keccak256\":\"0xbc886786035cbed720943c7a805562b8b8a3e43b068d5403f7e49dd513c13c7f\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://e34751521bcee12386755e1a02f4945c9728f8ff027d6c45cf21d01a6c0f6823\",\"dweb:/ipfs/QmPbYHsNNEofddvN2ZkeEzTGJ51EhRD1CeM2xLjsNJrZYu\"]}},\"version\":1}",
+  "bytecode": "0x608060405234801561001057600080fd5b5060f78061001f6000396000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c806301ffc9a714602d575b600080fd5b60436004803603810190603f9190605b565b6045565b005b50565b60008135905060558160ad565b92915050565b600060208284031215606c57600080fd5b60006078848285016048565b91505092915050565b60007fffffffff0000000000000000000000000000000000000000000000000000000082169050919050565b60b4816081565b811460be57600080fd5b5056fea2646970667358221220decb898238de9a700a1efb07649a150a562cc7b5baa50ea5db7e6d94586a635264736f6c63430008000033",
+  "deployedBytecode": "0x6080604052348015600f57600080fd5b506004361060285760003560e01c806301ffc9a714602d575b600080fd5b60436004803603810190603f9190605b565b6045565b005b50565b60008135905060558160ad565b92915050565b600060208284031215606c57600080fd5b60006078848285016048565b91505092915050565b60007fffffffff0000000000000000000000000000000000000000000000000000000082169050919050565b60b4816081565b811460be57600080fd5b5056fea2646970667358221220decb898238de9a700a1efb07649a150a562cc7b5baa50ea5db7e6d94586a635264736f6c63430008000033",
+  "immutableReferences": {},
+  "sourceMap": "62:116:27:-:0;;;;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "62:116:27:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;96:61;;;;;;;;;;;;;:::i;:::-;;:::i;:::-;;;;:::o;7:137:143:-;;90:6;77:20;68:29;;106:32;132:5;106:32;:::i;:::-;58:86;;;;:::o;150:260::-;;257:2;245:9;236:7;232:23;228:32;225:2;;;273:1;270;263:12;225:2;316:1;341:52;385:7;376:6;365:9;361:22;341:52;:::i;:::-;331:62;;287:116;215:195;;;;:::o;416:149::-;;492:66;485:5;481:78;470:89;;460:105;;;:::o;571:120::-;643:23;660:5;643:23;:::i;:::-;636:5;633:34;623:2;;681:1;678;671:12;623:2;613:78;:::o",
+  "source": "// SPDX-License-Identifier: MIT\r\n\r\npragma solidity ^0.8.0;\r\n\r\ncontract ERC165MissingData {\r\n    function supportsInterface(bytes4 interfaceId) public view {} // missing return\r\n}\r\n",
+  "sourcePath": "C:/Users/RogerGangaSundararaj/Documents/GitHub/openzeppelin-contracts/contracts/mocks/ERC165/ERC165MissingData.sol",
+  "ast": {
+    "absolutePath": "/C/Users/RogerGangaSundararaj/Documents/GitHub/openzeppelin-contracts/contracts/mocks/ERC165/ERC165MissingData.sol",
+    "exportedSymbols": {
+      "ERC165MissingData": [
+        3301
+      ]
+    },
+    "id": 3302,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 3294,
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "35:23:27"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 3301,
+        "linearizedBaseContracts": [
+          3301
+        ],
+        "name": "ERC165MissingData",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 3299,
+              "nodeType": "Block",
+              "src": "155:2:27",
+              "statements": []
+            },
+            "functionSelector": "01ffc9a7",
+            "id": 3300,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "supportsInterface",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 3297,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 3296,
+                  "mutability": "mutable",
+                  "name": "interfaceId",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 3300,
+                  "src": "123:18:27",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bytes4",
+                    "typeString": "bytes4"
+                  },
+                  "typeName": {
+                    "id": 3295,
+                    "name": "bytes4",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "123:6:27",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bytes4",
+                      "typeString": "bytes4"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "122:20:27"
+            },
+            "returnParameters": {
+              "id": 3298,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "155:0:27"
+            },
+            "scope": 3301,
+            "src": "96:61:27",
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "public"
+          }
+        ],
+        "scope": 3302,
+        "src": "62:116:27"
+      }
+    ],
+    "src": "35:145:27"
+  },
+  "legacyAST": {
+    "absolutePath": "/C/Users/RogerGangaSundararaj/Documents/GitHub/openzeppelin-contracts/contracts/mocks/ERC165/ERC165MissingData.sol",
+    "exportedSymbols": {
+      "ERC165MissingData": [
+        3301
+      ]
+    },
+    "id": 3302,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 3294,
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "35:23:27"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 3301,
+        "linearizedBaseContracts": [
+          3301
+        ],
+        "name": "ERC165MissingData",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 3299,
+              "nodeType": "Block",
+              "src": "155:2:27",
+              "statements": []
+            },
+            "functionSelector": "01ffc9a7",
+            "id": 3300,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "supportsInterface",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 3297,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 3296,
+                  "mutability": "mutable",
+                  "name": "interfaceId",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 3300,
+                  "src": "123:18:27",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bytes4",
+                    "typeString": "bytes4"
+                  },
+                  "typeName": {
+                    "id": 3295,
+                    "name": "bytes4",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "123:6:27",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bytes4",
+                      "typeString": "bytes4"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "122:20:27"
+            },
+            "returnParameters": {
+              "id": 3298,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "155:0:27"
+            },
+            "scope": 3301,
+            "src": "96:61:27",
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "public"
+          }
+        ],
+        "scope": 3302,
+        "src": "62:116:27"
+      }
+    ],
+    "src": "35:145:27"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.0+commit.c7dfd78e.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.2.3",
+  "updatedAt": "2021-03-26T09:42:08.397Z",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}

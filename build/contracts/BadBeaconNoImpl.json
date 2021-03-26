@@ -1,0 +1,405 @@
+{
+  "contractName": "BadBeaconNoImpl",
+  "abi": [],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.0+commit.c7dfd78e\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/C/Users/RogerGangaSundararaj/Documents/GitHub/openzeppelin-contracts/contracts/mocks/BadBeacon.sol\":\"BadBeaconNoImpl\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/C/Users/RogerGangaSundararaj/Documents/GitHub/openzeppelin-contracts/contracts/mocks/BadBeacon.sol\":{\"keccak256\":\"0x0dd690e61996335053f11526c142d74ad7fd5526b2f54abf41da38abcf765b15\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://fcfd647569800c9e74f038fc572bcacac7a818e3f9302c988baa0519c4addd74\",\"dweb:/ipfs/QmbmoJtgjKFmMxt5Rhsi2cH7gsT2bsTUP5heAkGpU4Xt3B\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea2646970667358221220d4bb2e6f7cc39b3b8c4b253bc44a798f90b52fb5d679d28357462e27b8dfcd4464736f6c63430008000033",
+  "deployedBytecode": "0x6080604052600080fdfea2646970667358221220d4bb2e6f7cc39b3b8c4b253bc44a798f90b52fb5d679d28357462e27b8dfcd4464736f6c63430008000033",
+  "immutableReferences": {},
+  "sourceMap": "62:29:11:-:0;;;;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "62:29:11:-:0;;;;;",
+  "source": "// SPDX-License-Identifier: MIT\r\n\r\npragma solidity ^0.8.0;\r\n\r\ncontract BadBeaconNoImpl {\r\n}\r\n\r\ncontract BadBeaconNotContract {\r\n    function implementation() external pure returns (address) {\r\n        return address(0x1);\r\n    }\r\n}\r\n",
+  "sourcePath": "C:/Users/RogerGangaSundararaj/Documents/GitHub/openzeppelin-contracts/contracts/mocks/BadBeacon.sol",
+  "ast": {
+    "absolutePath": "/C/Users/RogerGangaSundararaj/Documents/GitHub/openzeppelin-contracts/contracts/mocks/BadBeacon.sol",
+    "exportedSymbols": {
+      "BadBeaconNoImpl": [
+        2176
+      ],
+      "BadBeaconNotContract": [
+        2188
+      ]
+    },
+    "id": 2189,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 2175,
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "35:23:11"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 2176,
+        "linearizedBaseContracts": [
+          2176
+        ],
+        "name": "BadBeaconNoImpl",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 2189,
+        "src": "62:29:11"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 2188,
+        "linearizedBaseContracts": [
+          2188
+        ],
+        "name": "BadBeaconNotContract",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 2186,
+              "nodeType": "Block",
+              "src": "190:38:11",
+              "statements": [
+                {
+                  "expression": {
+                    "arguments": [
+                      {
+                        "hexValue": "307831",
+                        "id": 2183,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "kind": "number",
+                        "lValueRequested": false,
+                        "nodeType": "Literal",
+                        "src": "216:3:11",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_rational_1_by_1",
+                          "typeString": "int_const 1"
+                        },
+                        "value": "0x1"
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_rational_1_by_1",
+                          "typeString": "int_const 1"
+                        }
+                      ],
+                      "id": 2182,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "lValueRequested": false,
+                      "nodeType": "ElementaryTypeNameExpression",
+                      "src": "208:7:11",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_type$_t_address_$",
+                        "typeString": "type(address)"
+                      },
+                      "typeName": {
+                        "id": 2181,
+                        "name": "address",
+                        "nodeType": "ElementaryTypeName",
+                        "src": "208:7:11",
+                        "typeDescriptions": {}
+                      }
+                    },
+                    "id": 2184,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": true,
+                    "kind": "typeConversion",
+                    "lValueRequested": false,
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "208:12:11",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "functionReturnParameters": 2180,
+                  "id": 2185,
+                  "nodeType": "Return",
+                  "src": "201:19:11"
+                }
+              ]
+            },
+            "functionSelector": "5c60da1b",
+            "id": 2187,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "implementation",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 2177,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "155:2:11"
+            },
+            "returnParameters": {
+              "id": 2180,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 2179,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 2187,
+                  "src": "181:7:11",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 2178,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "181:7:11",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "180:9:11"
+            },
+            "scope": 2188,
+            "src": "132:96:11",
+            "stateMutability": "pure",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "scope": 2189,
+        "src": "95:136:11"
+      }
+    ],
+    "src": "35:198:11"
+  },
+  "legacyAST": {
+    "absolutePath": "/C/Users/RogerGangaSundararaj/Documents/GitHub/openzeppelin-contracts/contracts/mocks/BadBeacon.sol",
+    "exportedSymbols": {
+      "BadBeaconNoImpl": [
+        2176
+      ],
+      "BadBeaconNotContract": [
+        2188
+      ]
+    },
+    "id": 2189,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 2175,
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "35:23:11"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 2176,
+        "linearizedBaseContracts": [
+          2176
+        ],
+        "name": "BadBeaconNoImpl",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 2189,
+        "src": "62:29:11"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 2188,
+        "linearizedBaseContracts": [
+          2188
+        ],
+        "name": "BadBeaconNotContract",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 2186,
+              "nodeType": "Block",
+              "src": "190:38:11",
+              "statements": [
+                {
+                  "expression": {
+                    "arguments": [
+                      {
+                        "hexValue": "307831",
+                        "id": 2183,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "kind": "number",
+                        "lValueRequested": false,
+                        "nodeType": "Literal",
+                        "src": "216:3:11",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_rational_1_by_1",
+                          "typeString": "int_const 1"
+                        },
+                        "value": "0x1"
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_rational_1_by_1",
+                          "typeString": "int_const 1"
+                        }
+                      ],
+                      "id": 2182,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "lValueRequested": false,
+                      "nodeType": "ElementaryTypeNameExpression",
+                      "src": "208:7:11",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_type$_t_address_$",
+                        "typeString": "type(address)"
+                      },
+                      "typeName": {
+                        "id": 2181,
+                        "name": "address",
+                        "nodeType": "ElementaryTypeName",
+                        "src": "208:7:11",
+                        "typeDescriptions": {}
+                      }
+                    },
+                    "id": 2184,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": true,
+                    "kind": "typeConversion",
+                    "lValueRequested": false,
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "208:12:11",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "functionReturnParameters": 2180,
+                  "id": 2185,
+                  "nodeType": "Return",
+                  "src": "201:19:11"
+                }
+              ]
+            },
+            "functionSelector": "5c60da1b",
+            "id": 2187,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "implementation",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 2177,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "155:2:11"
+            },
+            "returnParameters": {
+              "id": 2180,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 2179,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 2187,
+                  "src": "181:7:11",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 2178,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "181:7:11",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "180:9:11"
+            },
+            "scope": 2188,
+            "src": "132:96:11",
+            "stateMutability": "pure",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "scope": 2189,
+        "src": "95:136:11"
+      }
+    ],
+    "src": "35:198:11"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.0+commit.c7dfd78e.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.2.3",
+  "updatedAt": "2021-03-26T09:42:04.331Z",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}

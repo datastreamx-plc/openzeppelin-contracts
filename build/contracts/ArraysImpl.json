@@ -1,0 +1,844 @@
+{
+  "contractName": "ArraysImpl",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "uint256[]",
+          "name": "array",
+          "type": "uint256[]"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "element",
+          "type": "uint256"
+        }
+      ],
+      "name": "findUpperBound",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.0+commit.c7dfd78e\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"uint256[]\",\"name\":\"array\",\"type\":\"uint256[]\"}],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"element\",\"type\":\"uint256\"}],\"name\":\"findUpperBound\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/C/Users/RogerGangaSundararaj/Documents/GitHub/openzeppelin-contracts/contracts/mocks/ArraysImpl.sol\":\"ArraysImpl\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/C/Users/RogerGangaSundararaj/Documents/GitHub/openzeppelin-contracts/contracts/mocks/ArraysImpl.sol\":{\"keccak256\":\"0x5aead054a4a5a6a0946d5e7f304adb933bf79bc9547f9a3d2624ee5a30354166\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://9d3eb3a40dc18f6282c08e6ff347d61f133da2dafc04017a859f80d5c36e9f16\",\"dweb:/ipfs/QmXuqduX6jBHsYzNkS4eTUHtmvVsVV9AqUoBZk4bUvCE3y\"]},\"/C/Users/RogerGangaSundararaj/Documents/GitHub/openzeppelin-contracts/contracts/utils/Arrays.sol\":{\"keccak256\":\"0x524e16289da9d833f6a61bb4da3061c524a9c8f6755200aad1040b86dc599749\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://402092f8b13d414d62d269ef5db78bec6de61c5912c1fa47342cfa50406a3edd\",\"dweb:/ipfs/QmaWrvusNiBJaGHg6zDXZg6sKM3kizPno7CcmFBTPrqePm\"]},\"/C/Users/RogerGangaSundararaj/Documents/GitHub/openzeppelin-contracts/contracts/utils/math/Math.sol\":{\"keccak256\":\"0xf1848de74e270d74781176ea7a43739e403d69483fb72a2eb062838bbbd741dc\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://fe6c4a6da5b626dd608e08129faa1863fa579f29292b376876653a8bce59bb77\",\"dweb:/ipfs/QmZiFcNb1dcQmhmqFC26dYNew8xaddrubEx5XEESsukRRF\"]}},\"version\":1}",
+  "bytecode": "0x608060405234801561001057600080fd5b5060405161067438038061067483398181016040528101906100329190610164565b806000908051906020019061004892919061004f565b5050610252565b82805482825590600052602060002090810192821561008b579160200282015b8281111561008a57825182559160200191906001019061006f565b5b509050610098919061009c565b5090565b5b808211156100b557600081600090555060010161009d565b5090565b60006100cc6100c7846101d6565b6101a5565b905080838252602082019050828560208602820111156100eb57600080fd5b60005b8581101561011b5781610101888261014f565b8452602084019350602083019250506001810190506100ee565b5050509392505050565b600082601f83011261013657600080fd5b81516101468482602086016100b9565b91505092915050565b60008151905061015e8161023b565b92915050565b60006020828403121561017657600080fd5b600082015167ffffffffffffffff81111561019057600080fd5b61019c84828501610125565b91505092915050565b6000604051905081810181811067ffffffffffffffff821117156101cc576101cb61020c565b5b8060405250919050565b600067ffffffffffffffff8211156101f1576101f061020c565b5b602082029050602081019050919050565b6000819050919050565b7f4e487b7100000000000000000000000000000000000000000000000000000000600052604160045260246000fd5b61024481610202565b811461024f57600080fd5b50565b610413806102616000396000f3fe608060405234801561001057600080fd5b506004361061002b5760003560e01c806333e3a58a14610030575b600080fd5b61004a6004803603810190610045919061021f565b610060565b6040516100579190610257565b60405180910390f35b600061007682600061007d90919063ffffffff16565b9050919050565b60008083805490501415610094576000905061019d565b600080848054905090505b8082101561011e5760006100b383836101a3565b9050848682815481106100ef577f4e487b7100000000000000000000000000000000000000000000000000000000600052603260045260246000fd5b9060005260206000200154111561010857809150610118565b6001816101159190610272565b92505b5061009f565b60008211801561017c5750838560018461013891906102f9565b8154811061016f577f4e487b7100000000000000000000000000000000000000000000000000000000600052603260045260246000fd5b9060005260206000200154145b156101975760018261018e91906102f9565b9250505061019d565b81925050505b92915050565b6000600280836101b39190610337565b6002856101c09190610337565b6101ca9190610272565b6101d491906102c8565b6002836101e191906102c8565b6002856101ee91906102c8565b6101f89190610272565b6102029190610272565b905092915050565b600081359050610219816103c6565b92915050565b60006020828403121561023157600080fd5b600061023f8482850161020a565b91505092915050565b6102518161032d565b82525050565b600060208201905061026c6000830184610248565b92915050565b600061027d8261032d565b91506102888361032d565b9250827fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff038211156102bd576102bc610368565b5b828201905092915050565b60006102d38261032d565b91506102de8361032d565b9250826102ee576102ed610397565b5b828204905092915050565b60006103048261032d565b915061030f8361032d565b92508282101561032257610321610368565b5b828203905092915050565b6000819050919050565b60006103428261032d565b915061034d8361032d565b92508261035d5761035c610397565b5b828206905092915050565b7f4e487b7100000000000000000000000000000000000000000000000000000000600052601160045260246000fd5b7f4e487b7100000000000000000000000000000000000000000000000000000000600052601260045260246000fd5b6103cf8161032d565b81146103da57600080fd5b5056fea26469706673582212209d81144b697faf0f2a3b25d47b901d6d3af1256d75172723ccbc5351643025b464736f6c63430008000033",
+  "deployedBytecode": "0x608060405234801561001057600080fd5b506004361061002b5760003560e01c806333e3a58a14610030575b600080fd5b61004a6004803603810190610045919061021f565b610060565b6040516100579190610257565b60405180910390f35b600061007682600061007d90919063ffffffff16565b9050919050565b60008083805490501415610094576000905061019d565b600080848054905090505b8082101561011e5760006100b383836101a3565b9050848682815481106100ef577f4e487b7100000000000000000000000000000000000000000000000000000000600052603260045260246000fd5b9060005260206000200154111561010857809150610118565b6001816101159190610272565b92505b5061009f565b60008211801561017c5750838560018461013891906102f9565b8154811061016f577f4e487b7100000000000000000000000000000000000000000000000000000000600052603260045260246000fd5b9060005260206000200154145b156101975760018261018e91906102f9565b9250505061019d565b81925050505b92915050565b6000600280836101b39190610337565b6002856101c09190610337565b6101ca9190610272565b6101d491906102c8565b6002836101e191906102c8565b6002856101ee91906102c8565b6101f89190610272565b6102029190610272565b905092915050565b600081359050610219816103c6565b92915050565b60006020828403121561023157600080fd5b600061023f8482850161020a565b91505092915050565b6102518161032d565b82525050565b600060208201905061026c6000830184610248565b92915050565b600061027d8261032d565b91506102888361032d565b9250827fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff038211156102bd576102bc610368565b5b828201905092915050565b60006102d38261032d565b91506102de8361032d565b9250826102ee576102ed610397565b5b828204905092915050565b60006103048261032d565b915061030f8361032d565b92508282101561032257610321610368565b5b828203905092915050565b6000819050919050565b60006103428261032d565b915061034d8361032d565b92508261035d5761035c610397565b5b828206905092915050565b7f4e487b7100000000000000000000000000000000000000000000000000000000600052601160045260246000fd5b7f4e487b7100000000000000000000000000000000000000000000000000000000600052601260045260246000fd5b6103cf8161032d565b81146103da57600080fd5b5056fea26469706673582212209d81144b697faf0f2a3b25d47b901d6d3af1256d75172723ccbc5351643025b464736f6c63430008000033",
+  "immutableReferences": {},
+  "sourceMap": "95:305:10:-:0;;;190:70;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;247:5;238:6;:14;;;;;;;;;;;;:::i;:::-;;190:70;95:305;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;:::o;:::-;;;;;;;;;;;;;;;;;;;;;:::o;24:644:143:-;;156:80;171:64;228:6;171:64;:::i;:::-;156:80;:::i;:::-;147:89;;256:5;284:6;277:5;270:21;310:4;303:5;299:16;292:23;;335:6;385:3;377:4;369:6;365:17;360:3;356:27;353:36;350:2;;;402:1;399;392:12;350:2;430:1;415:247;440:6;437:1;434:13;415:247;;;507:3;535:48;579:3;567:10;535:48;:::i;:::-;530:3;523:61;613:4;608:3;604:14;597:21;;647:4;642:3;638:14;631:21;;475:187;462:1;459;455:9;450:14;;415:247;;;419:14;137:531;;;;;;;:::o;691:318::-;;822:3;815:4;807:6;803:17;799:27;789:2;;840:1;837;830:12;789:2;873:6;867:13;898:105;999:3;991:6;984:4;976:6;972:17;898:105;:::i;:::-;889:114;;779:230;;;;;:::o;1015:143::-;;1103:6;1097:13;1088:22;;1119:33;1146:5;1119:33;:::i;:::-;1078:80;;;;:::o;1164:420::-;;1308:2;1296:9;1287:7;1283:23;1279:32;1276:2;;;1324:1;1321;1314:12;1276:2;1388:1;1377:9;1373:17;1367:24;1418:18;1410:6;1407:30;1404:2;;;1450:1;1447;1440:12;1404:2;1478:89;1559:7;1550:6;1539:9;1535:22;1478:89;:::i;:::-;1468:99;;1338:239;1266:318;;;;:::o;1590:283::-;;1656:2;1650:9;1640:19;;1698:4;1690:6;1686:17;1805:6;1793:10;1790:22;1769:18;1757:10;1754:34;1751:62;1748:2;;;1816:18;;:::i;:::-;1748:2;1856:10;1852:2;1845:22;1630:243;;;;:::o;1879:311::-;;2046:18;2038:6;2035:30;2032:2;;;2068:18;;:::i;:::-;2032:2;2118:4;2110:6;2106:17;2098:25;;2178:4;2172;2168:15;2160:23;;1961:229;;;:::o;2196:77::-;;2262:5;2251:16;;2241:32;;;:::o;2279:180::-;2327:77;2324:1;2317:88;2424:4;2421:1;2414:15;2448:4;2445:1;2438:15;2465:122;2538:24;2556:5;2538:24;:::i;:::-;2531:5;2528:35;2518:2;;2577:1;2574;2567:12;2518:2;2508:79;:::o;95:305:10:-;;;;;;;",
+  "deployedSourceMap": "95:305:10:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;268:129;;;;;;;;;;;;;:::i;:::-;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;;332:7;359:30;381:7;359:6;:21;;:30;;;;:::i;:::-;352:37;;268:129;;;:::o;600:918:119:-;689:7;729:1;713:5;:12;;;;:17;709:58;;;754:1;747:8;;;;709:58;779:11;805:12;820:5;:12;;;;805:27;;845:424;858:4;852:3;:10;845:424;;;879:11;893:23;906:3;911:4;893:12;:23::i;:::-;879:37;;1150:7;1137:5;1143:3;1137:10;;;;;;;;;;;;;;;;;;;;;;;;:20;1133:125;;;1185:3;1178:10;;1133:125;;;1241:1;1235:3;:7;;;;:::i;:::-;1229:13;;1133:125;845:424;;;;1395:1;1389:3;:7;:36;;;;;1418:7;1400:5;1412:1;1406:3;:7;;;;:::i;:::-;1400:14;;;;;;;;;;;;;;;;;;;;;;;;:25;1389:36;1385:126;;;1455:1;1449:3;:7;;;;:::i;:::-;1442:14;;;;;;1385:126;1496:3;1489:10;;;;600:918;;;;;:::o;634:193:137:-;696:7;817:1;812;808;:5;;;;:::i;:::-;804:1;800;:5;;;;:::i;:::-;:13;;;;:::i;:::-;799:19;;;;:::i;:::-;793:1;789;:5;;;;:::i;:::-;783:1;779;:5;;;;:::i;:::-;778:17;;;;:::i;:::-;:41;;;;:::i;:::-;771:48;;634:193;;;;:::o;7:139:143:-;;91:6;78:20;69:29;;107:33;134:5;107:33;:::i;:::-;59:87;;;;:::o;152:262::-;;260:2;248:9;239:7;235:23;231:32;228:2;;;276:1;273;266:12;228:2;319:1;344:53;389:7;380:6;369:9;365:22;344:53;:::i;:::-;334:63;;290:117;218:196;;;;:::o;420:118::-;507:24;525:5;507:24;:::i;:::-;502:3;495:37;485:53;;:::o;544:222::-;;675:2;664:9;660:18;652:26;;688:71;756:1;745:9;741:17;732:6;688:71;:::i;:::-;642:124;;;;:::o;772:305::-;;831:20;849:1;831:20;:::i;:::-;826:25;;865:20;883:1;865:20;:::i;:::-;860:25;;1019:1;951:66;947:74;944:1;941:81;938:2;;;1025:18;;:::i;:::-;938:2;1069:1;1066;1062:9;1055:16;;816:261;;;;:::o;1083:185::-;;1140:20;1158:1;1140:20;:::i;:::-;1135:25;;1174:20;1192:1;1174:20;:::i;:::-;1169:25;;1213:1;1203:2;;1218:18;;:::i;:::-;1203:2;1260:1;1257;1253:9;1248:14;;1125:143;;;;:::o;1274:191::-;;1334:20;1352:1;1334:20;:::i;:::-;1329:25;;1368:20;1386:1;1368:20;:::i;:::-;1363:25;;1407:1;1404;1401:8;1398:2;;;1412:18;;:::i;:::-;1398:2;1457:1;1454;1450:9;1442:17;;1319:146;;;;:::o;1471:77::-;;1537:5;1526:16;;1516:32;;;:::o;1554:176::-;;1603:20;1621:1;1603:20;:::i;:::-;1598:25;;1637:20;1655:1;1637:20;:::i;:::-;1632:25;;1676:1;1666:2;;1681:18;;:::i;:::-;1666:2;1722:1;1719;1715:9;1710:14;;1588:142;;;;:::o;1736:180::-;1784:77;1781:1;1774:88;1881:4;1878:1;1871:15;1905:4;1902:1;1895:15;1922:180;1970:77;1967:1;1960:88;2067:4;2064:1;2057:15;2091:4;2088:1;2081:15;2108:122;2181:24;2199:5;2181:24;:::i;:::-;2174:5;2171:35;2161:2;;2220:1;2217;2210:12;2161:2;2151:79;:::o",
+  "source": "// SPDX-License-Identifier: MIT\r\n\r\npragma solidity ^0.8.0;\r\n\r\nimport \"../utils/Arrays.sol\";\r\n\r\ncontract ArraysImpl {\r\n    using Arrays for uint256[];\r\n\r\n    uint256[] private _array;\r\n\r\n    constructor (uint256[] memory array) {\r\n        _array = array;\r\n    }\r\n\r\n    function findUpperBound(uint256 element) external view returns (uint256) {\r\n        return _array.findUpperBound(element);\r\n    }\r\n}\r\n",
+  "sourcePath": "C:/Users/RogerGangaSundararaj/Documents/GitHub/openzeppelin-contracts/contracts/mocks/ArraysImpl.sol",
+  "ast": {
+    "absolutePath": "/C/Users/RogerGangaSundararaj/Documents/GitHub/openzeppelin-contracts/contracts/mocks/ArraysImpl.sol",
+    "exportedSymbols": {
+      "Arrays": [
+        14983
+      ],
+      "ArraysImpl": [
+        2173
+      ],
+      "Math": [
+        16567
+      ]
+    },
+    "id": 2174,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 2140,
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "35:23:10"
+      },
+      {
+        "absolutePath": "/C/Users/RogerGangaSundararaj/Documents/GitHub/openzeppelin-contracts/contracts/utils/Arrays.sol",
+        "file": "../utils/Arrays.sol",
+        "id": 2141,
+        "nodeType": "ImportDirective",
+        "scope": 2174,
+        "sourceUnit": 14984,
+        "src": "62:29:10",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 2173,
+        "linearizedBaseContracts": [
+          2173
+        ],
+        "name": "ArraysImpl",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "id": 2145,
+            "libraryName": {
+              "id": 2142,
+              "name": "Arrays",
+              "nodeType": "IdentifierPath",
+              "referencedDeclaration": 14983,
+              "src": "128:6:10"
+            },
+            "nodeType": "UsingForDirective",
+            "src": "122:27:10",
+            "typeName": {
+              "baseType": {
+                "id": 2143,
+                "name": "uint256",
+                "nodeType": "ElementaryTypeName",
+                "src": "139:7:10",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint256",
+                  "typeString": "uint256"
+                }
+              },
+              "id": 2144,
+              "nodeType": "ArrayTypeName",
+              "src": "139:9:10",
+              "typeDescriptions": {
+                "typeIdentifier": "t_array$_t_uint256_$dyn_storage_ptr",
+                "typeString": "uint256[]"
+              }
+            }
+          },
+          {
+            "constant": false,
+            "id": 2148,
+            "mutability": "mutable",
+            "name": "_array",
+            "nodeType": "VariableDeclaration",
+            "scope": 2173,
+            "src": "157:24:10",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_array$_t_uint256_$dyn_storage",
+              "typeString": "uint256[]"
+            },
+            "typeName": {
+              "baseType": {
+                "id": 2146,
+                "name": "uint256",
+                "nodeType": "ElementaryTypeName",
+                "src": "157:7:10",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint256",
+                  "typeString": "uint256"
+                }
+              },
+              "id": 2147,
+              "nodeType": "ArrayTypeName",
+              "src": "157:9:10",
+              "typeDescriptions": {
+                "typeIdentifier": "t_array$_t_uint256_$dyn_storage_ptr",
+                "typeString": "uint256[]"
+              }
+            },
+            "visibility": "private"
+          },
+          {
+            "body": {
+              "id": 2158,
+              "nodeType": "Block",
+              "src": "227:33:10",
+              "statements": [
+                {
+                  "expression": {
+                    "id": 2156,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "id": 2154,
+                      "name": "_array",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 2148,
+                      "src": "238:6:10",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_array$_t_uint256_$dyn_storage",
+                        "typeString": "uint256[] storage ref"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "id": 2155,
+                      "name": "array",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 2151,
+                      "src": "247:5:10",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_array$_t_uint256_$dyn_memory_ptr",
+                        "typeString": "uint256[] memory"
+                      }
+                    },
+                    "src": "238:14:10",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_array$_t_uint256_$dyn_storage",
+                      "typeString": "uint256[] storage ref"
+                    }
+                  },
+                  "id": 2157,
+                  "nodeType": "ExpressionStatement",
+                  "src": "238:14:10"
+                }
+              ]
+            },
+            "id": 2159,
+            "implemented": true,
+            "kind": "constructor",
+            "modifiers": [],
+            "name": "",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 2152,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 2151,
+                  "mutability": "mutable",
+                  "name": "array",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 2159,
+                  "src": "203:22:10",
+                  "stateVariable": false,
+                  "storageLocation": "memory",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_array$_t_uint256_$dyn_memory_ptr",
+                    "typeString": "uint256[]"
+                  },
+                  "typeName": {
+                    "baseType": {
+                      "id": 2149,
+                      "name": "uint256",
+                      "nodeType": "ElementaryTypeName",
+                      "src": "203:7:10",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "id": 2150,
+                    "nodeType": "ArrayTypeName",
+                    "src": "203:9:10",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_array$_t_uint256_$dyn_storage_ptr",
+                      "typeString": "uint256[]"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "202:24:10"
+            },
+            "returnParameters": {
+              "id": 2153,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "227:0:10"
+            },
+            "scope": 2173,
+            "src": "190:70:10",
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 2171,
+              "nodeType": "Block",
+              "src": "341:56:10",
+              "statements": [
+                {
+                  "expression": {
+                    "arguments": [
+                      {
+                        "id": 2168,
+                        "name": "element",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 2161,
+                        "src": "381:7:10",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        }
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        }
+                      ],
+                      "expression": {
+                        "id": 2166,
+                        "name": "_array",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 2148,
+                        "src": "359:6:10",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_array$_t_uint256_$dyn_storage",
+                          "typeString": "uint256[] storage ref"
+                        }
+                      },
+                      "id": 2167,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberName": "findUpperBound",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 14982,
+                      "src": "359:21:10",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_internal_view$_t_array$_t_uint256_$dyn_storage_ptr_$_t_uint256_$returns$_t_uint256_$bound_to$_t_array$_t_uint256_$dyn_storage_ptr_$",
+                        "typeString": "function (uint256[] storage pointer,uint256) view returns (uint256)"
+                      }
+                    },
+                    "id": 2169,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "359:30:10",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "functionReturnParameters": 2165,
+                  "id": 2170,
+                  "nodeType": "Return",
+                  "src": "352:37:10"
+                }
+              ]
+            },
+            "functionSelector": "33e3a58a",
+            "id": 2172,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "findUpperBound",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 2162,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 2161,
+                  "mutability": "mutable",
+                  "name": "element",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 2172,
+                  "src": "292:15:10",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 2160,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "292:7:10",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "291:17:10"
+            },
+            "returnParameters": {
+              "id": 2165,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 2164,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 2172,
+                  "src": "332:7:10",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 2163,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "332:7:10",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "331:9:10"
+            },
+            "scope": 2173,
+            "src": "268:129:10",
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "scope": 2174,
+        "src": "95:305:10"
+      }
+    ],
+    "src": "35:367:10"
+  },
+  "legacyAST": {
+    "absolutePath": "/C/Users/RogerGangaSundararaj/Documents/GitHub/openzeppelin-contracts/contracts/mocks/ArraysImpl.sol",
+    "exportedSymbols": {
+      "Arrays": [
+        14983
+      ],
+      "ArraysImpl": [
+        2173
+      ],
+      "Math": [
+        16567
+      ]
+    },
+    "id": 2174,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 2140,
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "35:23:10"
+      },
+      {
+        "absolutePath": "/C/Users/RogerGangaSundararaj/Documents/GitHub/openzeppelin-contracts/contracts/utils/Arrays.sol",
+        "file": "../utils/Arrays.sol",
+        "id": 2141,
+        "nodeType": "ImportDirective",
+        "scope": 2174,
+        "sourceUnit": 14984,
+        "src": "62:29:10",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 2173,
+        "linearizedBaseContracts": [
+          2173
+        ],
+        "name": "ArraysImpl",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "id": 2145,
+            "libraryName": {
+              "id": 2142,
+              "name": "Arrays",
+              "nodeType": "IdentifierPath",
+              "referencedDeclaration": 14983,
+              "src": "128:6:10"
+            },
+            "nodeType": "UsingForDirective",
+            "src": "122:27:10",
+            "typeName": {
+              "baseType": {
+                "id": 2143,
+                "name": "uint256",
+                "nodeType": "ElementaryTypeName",
+                "src": "139:7:10",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint256",
+                  "typeString": "uint256"
+                }
+              },
+              "id": 2144,
+              "nodeType": "ArrayTypeName",
+              "src": "139:9:10",
+              "typeDescriptions": {
+                "typeIdentifier": "t_array$_t_uint256_$dyn_storage_ptr",
+                "typeString": "uint256[]"
+              }
+            }
+          },
+          {
+            "constant": false,
+            "id": 2148,
+            "mutability": "mutable",
+            "name": "_array",
+            "nodeType": "VariableDeclaration",
+            "scope": 2173,
+            "src": "157:24:10",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_array$_t_uint256_$dyn_storage",
+              "typeString": "uint256[]"
+            },
+            "typeName": {
+              "baseType": {
+                "id": 2146,
+                "name": "uint256",
+                "nodeType": "ElementaryTypeName",
+                "src": "157:7:10",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint256",
+                  "typeString": "uint256"
+                }
+              },
+              "id": 2147,
+              "nodeType": "ArrayTypeName",
+              "src": "157:9:10",
+              "typeDescriptions": {
+                "typeIdentifier": "t_array$_t_uint256_$dyn_storage_ptr",
+                "typeString": "uint256[]"
+              }
+            },
+            "visibility": "private"
+          },
+          {
+            "body": {
+              "id": 2158,
+              "nodeType": "Block",
+              "src": "227:33:10",
+              "statements": [
+                {
+                  "expression": {
+                    "id": 2156,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "id": 2154,
+                      "name": "_array",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 2148,
+                      "src": "238:6:10",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_array$_t_uint256_$dyn_storage",
+                        "typeString": "uint256[] storage ref"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "id": 2155,
+                      "name": "array",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 2151,
+                      "src": "247:5:10",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_array$_t_uint256_$dyn_memory_ptr",
+                        "typeString": "uint256[] memory"
+                      }
+                    },
+                    "src": "238:14:10",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_array$_t_uint256_$dyn_storage",
+                      "typeString": "uint256[] storage ref"
+                    }
+                  },
+                  "id": 2157,
+                  "nodeType": "ExpressionStatement",
+                  "src": "238:14:10"
+                }
+              ]
+            },
+            "id": 2159,
+            "implemented": true,
+            "kind": "constructor",
+            "modifiers": [],
+            "name": "",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 2152,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 2151,
+                  "mutability": "mutable",
+                  "name": "array",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 2159,
+                  "src": "203:22:10",
+                  "stateVariable": false,
+                  "storageLocation": "memory",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_array$_t_uint256_$dyn_memory_ptr",
+                    "typeString": "uint256[]"
+                  },
+                  "typeName": {
+                    "baseType": {
+                      "id": 2149,
+                      "name": "uint256",
+                      "nodeType": "ElementaryTypeName",
+                      "src": "203:7:10",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "id": 2150,
+                    "nodeType": "ArrayTypeName",
+                    "src": "203:9:10",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_array$_t_uint256_$dyn_storage_ptr",
+                      "typeString": "uint256[]"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "202:24:10"
+            },
+            "returnParameters": {
+              "id": 2153,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "227:0:10"
+            },
+            "scope": 2173,
+            "src": "190:70:10",
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 2171,
+              "nodeType": "Block",
+              "src": "341:56:10",
+              "statements": [
+                {
+                  "expression": {
+                    "arguments": [
+                      {
+                        "id": 2168,
+                        "name": "element",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 2161,
+                        "src": "381:7:10",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        }
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        }
+                      ],
+                      "expression": {
+                        "id": 2166,
+                        "name": "_array",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 2148,
+                        "src": "359:6:10",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_array$_t_uint256_$dyn_storage",
+                          "typeString": "uint256[] storage ref"
+                        }
+                      },
+                      "id": 2167,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberName": "findUpperBound",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 14982,
+                      "src": "359:21:10",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_internal_view$_t_array$_t_uint256_$dyn_storage_ptr_$_t_uint256_$returns$_t_uint256_$bound_to$_t_array$_t_uint256_$dyn_storage_ptr_$",
+                        "typeString": "function (uint256[] storage pointer,uint256) view returns (uint256)"
+                      }
+                    },
+                    "id": 2169,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "359:30:10",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "functionReturnParameters": 2165,
+                  "id": 2170,
+                  "nodeType": "Return",
+                  "src": "352:37:10"
+                }
+              ]
+            },
+            "functionSelector": "33e3a58a",
+            "id": 2172,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "findUpperBound",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 2162,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 2161,
+                  "mutability": "mutable",
+                  "name": "element",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 2172,
+                  "src": "292:15:10",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 2160,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "292:7:10",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "291:17:10"
+            },
+            "returnParameters": {
+              "id": 2165,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 2164,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 2172,
+                  "src": "332:7:10",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 2163,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "332:7:10",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "331:9:10"
+            },
+            "scope": 2173,
+            "src": "268:129:10",
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "scope": 2174,
+        "src": "95:305:10"
+      }
+    ],
+    "src": "35:367:10"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.0+commit.c7dfd78e.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.2.3",
+  "updatedAt": "2021-03-26T09:42:04.296Z",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}

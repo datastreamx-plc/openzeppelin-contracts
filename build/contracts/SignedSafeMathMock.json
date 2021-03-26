@@ -1,0 +1,1822 @@
+{
+  "contractName": "SignedSafeMathMock",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "int256",
+          "name": "a",
+          "type": "int256"
+        },
+        {
+          "internalType": "int256",
+          "name": "b",
+          "type": "int256"
+        }
+      ],
+      "name": "mul",
+      "outputs": [
+        {
+          "internalType": "int256",
+          "name": "",
+          "type": "int256"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "int256",
+          "name": "a",
+          "type": "int256"
+        },
+        {
+          "internalType": "int256",
+          "name": "b",
+          "type": "int256"
+        }
+      ],
+      "name": "div",
+      "outputs": [
+        {
+          "internalType": "int256",
+          "name": "",
+          "type": "int256"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "int256",
+          "name": "a",
+          "type": "int256"
+        },
+        {
+          "internalType": "int256",
+          "name": "b",
+          "type": "int256"
+        }
+      ],
+      "name": "sub",
+      "outputs": [
+        {
+          "internalType": "int256",
+          "name": "",
+          "type": "int256"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "int256",
+          "name": "a",
+          "type": "int256"
+        },
+        {
+          "internalType": "int256",
+          "name": "b",
+          "type": "int256"
+        }
+      ],
+      "name": "add",
+      "outputs": [
+        {
+          "internalType": "int256",
+          "name": "",
+          "type": "int256"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.0+commit.c7dfd78e\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"int256\",\"name\":\"a\",\"type\":\"int256\"},{\"internalType\":\"int256\",\"name\":\"b\",\"type\":\"int256\"}],\"name\":\"add\",\"outputs\":[{\"internalType\":\"int256\",\"name\":\"\",\"type\":\"int256\"}],\"stateMutability\":\"pure\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"int256\",\"name\":\"a\",\"type\":\"int256\"},{\"internalType\":\"int256\",\"name\":\"b\",\"type\":\"int256\"}],\"name\":\"div\",\"outputs\":[{\"internalType\":\"int256\",\"name\":\"\",\"type\":\"int256\"}],\"stateMutability\":\"pure\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"int256\",\"name\":\"a\",\"type\":\"int256\"},{\"internalType\":\"int256\",\"name\":\"b\",\"type\":\"int256\"}],\"name\":\"mul\",\"outputs\":[{\"internalType\":\"int256\",\"name\":\"\",\"type\":\"int256\"}],\"stateMutability\":\"pure\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"int256\",\"name\":\"a\",\"type\":\"int256\"},{\"internalType\":\"int256\",\"name\":\"b\",\"type\":\"int256\"}],\"name\":\"sub\",\"outputs\":[{\"internalType\":\"int256\",\"name\":\"\",\"type\":\"int256\"}],\"stateMutability\":\"pure\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/C/Users/RogerGangaSundararaj/Documents/GitHub/openzeppelin-contracts/contracts/mocks/SignedSafeMathMock.sol\":\"SignedSafeMathMock\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/C/Users/RogerGangaSundararaj/Documents/GitHub/openzeppelin-contracts/contracts/mocks/SignedSafeMathMock.sol\":{\"keccak256\":\"0x4eb4719631372963130876cc0ed60823f0a659181acce66039c10fc8dc29189a\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://aa84f3c29a1416a7345c39b237145281572eb37764ab01cddafc0f10ecf1b90b\",\"dweb:/ipfs/QmVvUQbCMUaz4cwZxrin76JDc9M6oUhp8JnG1BL26pk34E\"]},\"/C/Users/RogerGangaSundararaj/Documents/GitHub/openzeppelin-contracts/contracts/utils/math/SignedSafeMath.sol\":{\"keccak256\":\"0xe1a2163e8bb5fe8cbac16134aa94ffc4b0b331b39aa5b518f4f557f7c8e2f09d\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://fa7303ae83ef6298dece099518572ef28dee31c7cc6f932ba8e20dc6e24aa87e\",\"dweb:/ipfs/QmUWt9rL2TJrZ4J1Rj4sC3k2BWRGFj88drJsRviTL9JTvb\"]}},\"version\":1}",
+  "bytecode": "0x608060405234801561001057600080fd5b50610592806100206000396000f3fe608060405234801561001057600080fd5b506004361061004c5760003560e01c80634350913814610051578063a5f3c23b14610081578063adefc37b146100b1578063bbe93d91146100e1575b600080fd5b61006b600480360381019061006691906101ce565b610111565b6040516100789190610219565b60405180910390f35b61009b600480360381019061009691906101ce565b610125565b6040516100a89190610219565b60405180910390f35b6100cb60048036038101906100c691906101ce565b610139565b6040516100d89190610219565b60405180910390f35b6100fb60048036038101906100f691906101ce565b61014d565b6040516101089190610219565b60405180910390f35b600061011d8383610161565b905092915050565b60006101318383610177565b905092915050565b6000610145838361018d565b905092915050565b600061015983836101a3565b905092915050565b6000818361016f91906102c8565b905092915050565b600081836101859190610234565b905092915050565b6000818361019b9190610449565b905092915050565b600081836101b19190610332565b905092915050565b6000813590506101c881610545565b92915050565b600080604083850312156101e157600080fd5b60006101ef858286016101b9565b9250506020610200858286016101b9565b9150509250929050565b610213816104dd565b82525050565b600060208201905061022e600083018461020a565b92915050565b600061023f826104dd565b915061024a836104dd565b9250817f7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff03831360008312151615610285576102846104e7565b5b817f80000000000000000000000000000000000000000000000000000000000000000383126000831216156102bd576102bc6104e7565b5b828201905092915050565b60006102d3826104dd565b91506102de836104dd565b9250826102ee576102ed610516565b5b600160000383147f800000000000000000000000000000000000000000000000000000000000000083141615610327576103266104e7565b5b828205905092915050565b600061033d826104dd565b9150610348836104dd565b9250827f7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff0482116000841360008413161615610387576103866104e7565b5b817f800000000000000000000000000000000000000000000000000000000000000005831260008412600084131616156103c4576103c36104e7565b5b827f80000000000000000000000000000000000000000000000000000000000000000582126000841360008412161615610401576104006104e7565b5b827f7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff058212600084126000841216161561043e5761043d6104e7565b5b828202905092915050565b6000610454826104dd565b915061045f836104dd565b9250827f80000000000000000000000000000000000000000000000000000000000000000182126000841215161561049a576104996104e7565b5b827f7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff0182136000841216156104d2576104d16104e7565b5b828203905092915050565b6000819050919050565b7f4e487b7100000000000000000000000000000000000000000000000000000000600052601160045260246000fd5b7f4e487b7100000000000000000000000000000000000000000000000000000000600052601260045260246000fd5b61054e816104dd565b811461055957600080fd5b5056fea26469706673582212208648f7bf04d2be7ea5bb4dbf47594059723264a7438e5ec3d6bf389aaf850ca964736f6c63430008000033",
+  "deployedBytecode": "0x608060405234801561001057600080fd5b506004361061004c5760003560e01c80634350913814610051578063a5f3c23b14610081578063adefc37b146100b1578063bbe93d91146100e1575b600080fd5b61006b600480360381019061006691906101ce565b610111565b6040516100789190610219565b60405180910390f35b61009b600480360381019061009691906101ce565b610125565b6040516100a89190610219565b60405180910390f35b6100cb60048036038101906100c691906101ce565b610139565b6040516100d89190610219565b60405180910390f35b6100fb60048036038101906100f691906101ce565b61014d565b6040516101089190610219565b60405180910390f35b600061011d8383610161565b905092915050565b60006101318383610177565b905092915050565b6000610145838361018d565b905092915050565b600061015983836101a3565b905092915050565b6000818361016f91906102c8565b905092915050565b600081836101859190610234565b905092915050565b6000818361019b9190610449565b905092915050565b600081836101b19190610332565b905092915050565b6000813590506101c881610545565b92915050565b600080604083850312156101e157600080fd5b60006101ef858286016101b9565b9250506020610200858286016101b9565b9150509250929050565b610213816104dd565b82525050565b600060208201905061022e600083018461020a565b92915050565b600061023f826104dd565b915061024a836104dd565b9250817f7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff03831360008312151615610285576102846104e7565b5b817f80000000000000000000000000000000000000000000000000000000000000000383126000831216156102bd576102bc6104e7565b5b828201905092915050565b60006102d3826104dd565b91506102de836104dd565b9250826102ee576102ed610516565b5b600160000383147f800000000000000000000000000000000000000000000000000000000000000083141615610327576103266104e7565b5b828205905092915050565b600061033d826104dd565b9150610348836104dd565b9250827f7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff0482116000841360008413161615610387576103866104e7565b5b817f800000000000000000000000000000000000000000000000000000000000000005831260008412600084131616156103c4576103c36104e7565b5b827f80000000000000000000000000000000000000000000000000000000000000000582126000841360008412161615610401576104006104e7565b5b827f7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff058212600084126000841216161561043e5761043d6104e7565b5b828202905092915050565b6000610454826104dd565b915061045f836104dd565b9250827f80000000000000000000000000000000000000000000000000000000000000000182126000841215161561049a576104996104e7565b5b827f7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff0182136000841216156104d2576104d16104e7565b5b828203905092915050565b6000819050919050565b7f4e487b7100000000000000000000000000000000000000000000000000000000600052601160045260246000fd5b7f4e487b7100000000000000000000000000000000000000000000000000000000600052601260045260246000fd5b61054e816104dd565b811461055957600080fd5b5056fea26469706673582212208648f7bf04d2be7ea5bb4dbf47594059723264a7438e5ec3d6bf389aaf850ca964736f6c63430008000033",
+  "immutableReferences": {},
+  "sourceMap": "108:510:65:-:0;;;;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "108:510:65:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;263:112;;;;;;;;;;;;;:::i;:::-;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;503;;;;;;;;;;;;;:::i;:::-;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;383;;;;;;;;;;;;;:::i;:::-;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;143;;;;;;;;;;;;;:::i;:::-;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;263;317:6;343:24;362:1;365;343:18;:24::i;:::-;336:31;;263:112;;;;:::o;503:::-;557:6;583:24;602:1;605;583:18;:24::i;:::-;576:31;;503:112;;;;:::o;383:::-;437:6;463:24;482:1;485;463:18;:24::i;:::-;456:31;;383:112;;;;:::o;143:::-;197:6;223:24;242:1;245;223:18;:24::i;:::-;216:31;;143:112;;;;:::o;932:95:140:-;988:6;1018:1;1014;:5;;;;:::i;:::-;1007:12;;932:95;;;;:::o;1618:::-;1674:6;1704:1;1700;:5;;;;:::i;:::-;1693:12;;1618:95;;;;:::o;1278:::-;1334:6;1364:1;1360;:5;;;;:::i;:::-;1353:12;;1278:95;;;;:::o;540:::-;596:6;626:1;622;:5;;;;:::i;:::-;615:12;;540:95;;;;:::o;7:137:143:-;;90:6;77:20;68:29;;106:32;132:5;106:32;:::i;:::-;58:86;;;;:::o;150:403::-;;;273:2;261:9;252:7;248:23;244:32;241:2;;;289:1;286;279:12;241:2;332:1;357:52;401:7;392:6;381:9;377:22;357:52;:::i;:::-;347:62;;303:116;458:2;484:52;528:7;519:6;508:9;504:22;484:52;:::i;:::-;474:62;;429:117;231:322;;;;;:::o;559:115::-;644:23;661:5;644:23;:::i;:::-;639:3;632:36;622:52;;:::o;680:218::-;;809:2;798:9;794:18;786:26;;822:69;888:1;877:9;873:17;864:6;822:69;:::i;:::-;776:122;;;;:::o;904:525::-;;962:19;979:1;962:19;:::i;:::-;957:24;;995:19;1012:1;995:19;:::i;:::-;990:24;;1183:1;1115:66;1111:74;1108:1;1104:82;1099:1;1096;1092:9;1085:17;1081:106;1078:2;;;1190:18;;:::i;:::-;1078:2;1370:1;1302:66;1298:74;1295:1;1291:82;1287:1;1284;1280:9;1276:98;1273:2;;;1377:18;;:::i;:::-;1273:2;1421:1;1418;1414:9;1407:16;;947:482;;;;:::o;1435:385::-;;1491:19;1508:1;1491:19;:::i;:::-;1486:24;;1524:19;1541:1;1524:19;:::i;:::-;1519:24;;1562:1;1552:2;;1567:18;;:::i;:::-;1552:2;1753:1;1750;1746:9;1743:1;1740:16;1659:66;1656:1;1653:73;1636:130;1633:2;;;1769:18;;:::i;:::-;1633:2;1812:1;1809;1804:10;1799:15;;1476:344;;;;:::o;1826:991::-;;1888:19;1905:1;1888:19;:::i;:::-;1883:24;;1921:19;1938:1;1921:19;:::i;:::-;1916:24;;2122:1;2054:66;2050:74;2047:1;2044:81;2039:1;2036;2032:9;2028:1;2025;2021:9;2017:25;2013:113;2010:2;;;2129:18;;:::i;:::-;2010:2;2333:1;2265:66;2260:75;2257:1;2253:83;2248:1;2245;2241:9;2237:1;2234;2230:9;2226:25;2222:115;2219:2;;;2340:18;;:::i;:::-;2219:2;2544:1;2476:66;2471:75;2468:1;2464:83;2459:1;2456;2452:9;2448:1;2445;2441:9;2437:25;2433:115;2430:2;;;2551:18;;:::i;:::-;2430:2;2754:1;2686:66;2681:75;2678:1;2674:83;2669:1;2666;2662:9;2658:1;2655;2651:9;2647:25;2643:115;2640:2;;;2761:18;;:::i;:::-;2640:2;2809:1;2806;2802:9;2791:20;;1873:944;;;;:::o;2823:527::-;;2882:19;2899:1;2882:19;:::i;:::-;2877:24;;2915:19;2932:1;2915:19;:::i;:::-;2910:24;;3104:1;3036:66;3032:74;3029:1;3025:82;3020:1;3017;3013:9;3006:17;3002:106;2999:2;;;3111:18;;:::i;:::-;2999:2;3290:1;3222:66;3218:74;3215:1;3211:82;3207:1;3204;3200:9;3196:98;3193:2;;;3297:18;;:::i;:::-;3193:2;3342:1;3339;3335:9;3327:17;;2867:483;;;;:::o;3356:76::-;;3421:5;3410:16;;3400:32;;;:::o;3438:180::-;3486:77;3483:1;3476:88;3583:4;3580:1;3573:15;3607:4;3604:1;3597:15;3624:180;3672:77;3669:1;3662:88;3769:4;3766:1;3759:15;3793:4;3790:1;3783:15;3810:120;3882:23;3899:5;3882:23;:::i;:::-;3875:5;3872:34;3862:2;;3920:1;3917;3910:12;3862:2;3852:78;:::o",
+  "source": "// SPDX-License-Identifier: MIT\r\n\r\npragma solidity ^0.8.0;\r\n\r\nimport \"../utils/math/SignedSafeMath.sol\";\r\n\r\ncontract SignedSafeMathMock {\r\n    function mul(int256 a, int256 b) public pure returns (int256) {\r\n        return SignedSafeMath.mul(a, b);\r\n    }\r\n\r\n    function div(int256 a, int256 b) public pure returns (int256) {\r\n        return SignedSafeMath.div(a, b);\r\n    }\r\n\r\n    function sub(int256 a, int256 b) public pure returns (int256) {\r\n        return SignedSafeMath.sub(a, b);\r\n    }\r\n\r\n    function add(int256 a, int256 b) public pure returns (int256) {\r\n        return SignedSafeMath.add(a, b);\r\n    }\r\n}\r\n",
+  "sourcePath": "C:/Users/RogerGangaSundararaj/Documents/GitHub/openzeppelin-contracts/contracts/mocks/SignedSafeMathMock.sol",
+  "ast": {
+    "absolutePath": "/C/Users/RogerGangaSundararaj/Documents/GitHub/openzeppelin-contracts/contracts/mocks/SignedSafeMathMock.sol",
+    "exportedSymbols": {
+      "SignedSafeMath": [
+        17256
+      ],
+      "SignedSafeMathMock": [
+        6894
+      ]
+    },
+    "id": 6895,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 6828,
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "35:23:65"
+      },
+      {
+        "absolutePath": "/C/Users/RogerGangaSundararaj/Documents/GitHub/openzeppelin-contracts/contracts/utils/math/SignedSafeMath.sol",
+        "file": "../utils/math/SignedSafeMath.sol",
+        "id": 6829,
+        "nodeType": "ImportDirective",
+        "scope": 6895,
+        "sourceUnit": 17257,
+        "src": "62:42:65",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 6894,
+        "linearizedBaseContracts": [
+          6894
+        ],
+        "name": "SignedSafeMathMock",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 6844,
+              "nodeType": "Block",
+              "src": "205:50:65",
+              "statements": [
+                {
+                  "expression": {
+                    "arguments": [
+                      {
+                        "id": 6840,
+                        "name": "a",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 6831,
+                        "src": "242:1:65",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_int256",
+                          "typeString": "int256"
+                        }
+                      },
+                      {
+                        "id": 6841,
+                        "name": "b",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 6833,
+                        "src": "245:1:65",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_int256",
+                          "typeString": "int256"
+                        }
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_int256",
+                          "typeString": "int256"
+                        },
+                        {
+                          "typeIdentifier": "t_int256",
+                          "typeString": "int256"
+                        }
+                      ],
+                      "expression": {
+                        "id": 6838,
+                        "name": "SignedSafeMath",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 17256,
+                        "src": "223:14:65",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_type$_t_contract$_SignedSafeMath_$17256_$",
+                          "typeString": "type(library SignedSafeMath)"
+                        }
+                      },
+                      "id": 6839,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberName": "mul",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 17210,
+                      "src": "223:18:65",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_internal_pure$_t_int256_$_t_int256_$returns$_t_int256_$",
+                        "typeString": "function (int256,int256) pure returns (int256)"
+                      }
+                    },
+                    "id": 6842,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "223:24:65",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_int256",
+                      "typeString": "int256"
+                    }
+                  },
+                  "functionReturnParameters": 6837,
+                  "id": 6843,
+                  "nodeType": "Return",
+                  "src": "216:31:65"
+                }
+              ]
+            },
+            "functionSelector": "bbe93d91",
+            "id": 6845,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "mul",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 6834,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 6831,
+                  "mutability": "mutable",
+                  "name": "a",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 6845,
+                  "src": "156:8:65",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_int256",
+                    "typeString": "int256"
+                  },
+                  "typeName": {
+                    "id": 6830,
+                    "name": "int256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "156:6:65",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_int256",
+                      "typeString": "int256"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 6833,
+                  "mutability": "mutable",
+                  "name": "b",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 6845,
+                  "src": "166:8:65",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_int256",
+                    "typeString": "int256"
+                  },
+                  "typeName": {
+                    "id": 6832,
+                    "name": "int256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "166:6:65",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_int256",
+                      "typeString": "int256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "155:20:65"
+            },
+            "returnParameters": {
+              "id": 6837,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 6836,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 6845,
+                  "src": "197:6:65",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_int256",
+                    "typeString": "int256"
+                  },
+                  "typeName": {
+                    "id": 6835,
+                    "name": "int256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "197:6:65",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_int256",
+                      "typeString": "int256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "196:8:65"
+            },
+            "scope": 6894,
+            "src": "143:112:65",
+            "stateMutability": "pure",
+            "virtual": false,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 6860,
+              "nodeType": "Block",
+              "src": "325:50:65",
+              "statements": [
+                {
+                  "expression": {
+                    "arguments": [
+                      {
+                        "id": 6856,
+                        "name": "a",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 6847,
+                        "src": "362:1:65",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_int256",
+                          "typeString": "int256"
+                        }
+                      },
+                      {
+                        "id": 6857,
+                        "name": "b",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 6849,
+                        "src": "365:1:65",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_int256",
+                          "typeString": "int256"
+                        }
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_int256",
+                          "typeString": "int256"
+                        },
+                        {
+                          "typeIdentifier": "t_int256",
+                          "typeString": "int256"
+                        }
+                      ],
+                      "expression": {
+                        "id": 6854,
+                        "name": "SignedSafeMath",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 17256,
+                        "src": "343:14:65",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_type$_t_contract$_SignedSafeMath_$17256_$",
+                          "typeString": "type(library SignedSafeMath)"
+                        }
+                      },
+                      "id": 6855,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberName": "div",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 17225,
+                      "src": "343:18:65",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_internal_pure$_t_int256_$_t_int256_$returns$_t_int256_$",
+                        "typeString": "function (int256,int256) pure returns (int256)"
+                      }
+                    },
+                    "id": 6858,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "343:24:65",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_int256",
+                      "typeString": "int256"
+                    }
+                  },
+                  "functionReturnParameters": 6853,
+                  "id": 6859,
+                  "nodeType": "Return",
+                  "src": "336:31:65"
+                }
+              ]
+            },
+            "functionSelector": "43509138",
+            "id": 6861,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "div",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 6850,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 6847,
+                  "mutability": "mutable",
+                  "name": "a",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 6861,
+                  "src": "276:8:65",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_int256",
+                    "typeString": "int256"
+                  },
+                  "typeName": {
+                    "id": 6846,
+                    "name": "int256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "276:6:65",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_int256",
+                      "typeString": "int256"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 6849,
+                  "mutability": "mutable",
+                  "name": "b",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 6861,
+                  "src": "286:8:65",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_int256",
+                    "typeString": "int256"
+                  },
+                  "typeName": {
+                    "id": 6848,
+                    "name": "int256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "286:6:65",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_int256",
+                      "typeString": "int256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "275:20:65"
+            },
+            "returnParameters": {
+              "id": 6853,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 6852,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 6861,
+                  "src": "317:6:65",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_int256",
+                    "typeString": "int256"
+                  },
+                  "typeName": {
+                    "id": 6851,
+                    "name": "int256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "317:6:65",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_int256",
+                      "typeString": "int256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "316:8:65"
+            },
+            "scope": 6894,
+            "src": "263:112:65",
+            "stateMutability": "pure",
+            "virtual": false,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 6876,
+              "nodeType": "Block",
+              "src": "445:50:65",
+              "statements": [
+                {
+                  "expression": {
+                    "arguments": [
+                      {
+                        "id": 6872,
+                        "name": "a",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 6863,
+                        "src": "482:1:65",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_int256",
+                          "typeString": "int256"
+                        }
+                      },
+                      {
+                        "id": 6873,
+                        "name": "b",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 6865,
+                        "src": "485:1:65",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_int256",
+                          "typeString": "int256"
+                        }
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_int256",
+                          "typeString": "int256"
+                        },
+                        {
+                          "typeIdentifier": "t_int256",
+                          "typeString": "int256"
+                        }
+                      ],
+                      "expression": {
+                        "id": 6870,
+                        "name": "SignedSafeMath",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 17256,
+                        "src": "463:14:65",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_type$_t_contract$_SignedSafeMath_$17256_$",
+                          "typeString": "type(library SignedSafeMath)"
+                        }
+                      },
+                      "id": 6871,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberName": "sub",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 17240,
+                      "src": "463:18:65",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_internal_pure$_t_int256_$_t_int256_$returns$_t_int256_$",
+                        "typeString": "function (int256,int256) pure returns (int256)"
+                      }
+                    },
+                    "id": 6874,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "463:24:65",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_int256",
+                      "typeString": "int256"
+                    }
+                  },
+                  "functionReturnParameters": 6869,
+                  "id": 6875,
+                  "nodeType": "Return",
+                  "src": "456:31:65"
+                }
+              ]
+            },
+            "functionSelector": "adefc37b",
+            "id": 6877,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "sub",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 6866,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 6863,
+                  "mutability": "mutable",
+                  "name": "a",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 6877,
+                  "src": "396:8:65",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_int256",
+                    "typeString": "int256"
+                  },
+                  "typeName": {
+                    "id": 6862,
+                    "name": "int256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "396:6:65",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_int256",
+                      "typeString": "int256"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 6865,
+                  "mutability": "mutable",
+                  "name": "b",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 6877,
+                  "src": "406:8:65",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_int256",
+                    "typeString": "int256"
+                  },
+                  "typeName": {
+                    "id": 6864,
+                    "name": "int256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "406:6:65",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_int256",
+                      "typeString": "int256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "395:20:65"
+            },
+            "returnParameters": {
+              "id": 6869,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 6868,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 6877,
+                  "src": "437:6:65",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_int256",
+                    "typeString": "int256"
+                  },
+                  "typeName": {
+                    "id": 6867,
+                    "name": "int256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "437:6:65",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_int256",
+                      "typeString": "int256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "436:8:65"
+            },
+            "scope": 6894,
+            "src": "383:112:65",
+            "stateMutability": "pure",
+            "virtual": false,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 6892,
+              "nodeType": "Block",
+              "src": "565:50:65",
+              "statements": [
+                {
+                  "expression": {
+                    "arguments": [
+                      {
+                        "id": 6888,
+                        "name": "a",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 6879,
+                        "src": "602:1:65",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_int256",
+                          "typeString": "int256"
+                        }
+                      },
+                      {
+                        "id": 6889,
+                        "name": "b",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 6881,
+                        "src": "605:1:65",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_int256",
+                          "typeString": "int256"
+                        }
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_int256",
+                          "typeString": "int256"
+                        },
+                        {
+                          "typeIdentifier": "t_int256",
+                          "typeString": "int256"
+                        }
+                      ],
+                      "expression": {
+                        "id": 6886,
+                        "name": "SignedSafeMath",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 17256,
+                        "src": "583:14:65",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_type$_t_contract$_SignedSafeMath_$17256_$",
+                          "typeString": "type(library SignedSafeMath)"
+                        }
+                      },
+                      "id": 6887,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberName": "add",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 17255,
+                      "src": "583:18:65",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_internal_pure$_t_int256_$_t_int256_$returns$_t_int256_$",
+                        "typeString": "function (int256,int256) pure returns (int256)"
+                      }
+                    },
+                    "id": 6890,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "583:24:65",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_int256",
+                      "typeString": "int256"
+                    }
+                  },
+                  "functionReturnParameters": 6885,
+                  "id": 6891,
+                  "nodeType": "Return",
+                  "src": "576:31:65"
+                }
+              ]
+            },
+            "functionSelector": "a5f3c23b",
+            "id": 6893,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "add",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 6882,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 6879,
+                  "mutability": "mutable",
+                  "name": "a",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 6893,
+                  "src": "516:8:65",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_int256",
+                    "typeString": "int256"
+                  },
+                  "typeName": {
+                    "id": 6878,
+                    "name": "int256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "516:6:65",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_int256",
+                      "typeString": "int256"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 6881,
+                  "mutability": "mutable",
+                  "name": "b",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 6893,
+                  "src": "526:8:65",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_int256",
+                    "typeString": "int256"
+                  },
+                  "typeName": {
+                    "id": 6880,
+                    "name": "int256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "526:6:65",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_int256",
+                      "typeString": "int256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "515:20:65"
+            },
+            "returnParameters": {
+              "id": 6885,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 6884,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 6893,
+                  "src": "557:6:65",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_int256",
+                    "typeString": "int256"
+                  },
+                  "typeName": {
+                    "id": 6883,
+                    "name": "int256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "557:6:65",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_int256",
+                      "typeString": "int256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "556:8:65"
+            },
+            "scope": 6894,
+            "src": "503:112:65",
+            "stateMutability": "pure",
+            "virtual": false,
+            "visibility": "public"
+          }
+        ],
+        "scope": 6895,
+        "src": "108:510:65"
+      }
+    ],
+    "src": "35:585:65"
+  },
+  "legacyAST": {
+    "absolutePath": "/C/Users/RogerGangaSundararaj/Documents/GitHub/openzeppelin-contracts/contracts/mocks/SignedSafeMathMock.sol",
+    "exportedSymbols": {
+      "SignedSafeMath": [
+        17256
+      ],
+      "SignedSafeMathMock": [
+        6894
+      ]
+    },
+    "id": 6895,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 6828,
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "35:23:65"
+      },
+      {
+        "absolutePath": "/C/Users/RogerGangaSundararaj/Documents/GitHub/openzeppelin-contracts/contracts/utils/math/SignedSafeMath.sol",
+        "file": "../utils/math/SignedSafeMath.sol",
+        "id": 6829,
+        "nodeType": "ImportDirective",
+        "scope": 6895,
+        "sourceUnit": 17257,
+        "src": "62:42:65",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 6894,
+        "linearizedBaseContracts": [
+          6894
+        ],
+        "name": "SignedSafeMathMock",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 6844,
+              "nodeType": "Block",
+              "src": "205:50:65",
+              "statements": [
+                {
+                  "expression": {
+                    "arguments": [
+                      {
+                        "id": 6840,
+                        "name": "a",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 6831,
+                        "src": "242:1:65",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_int256",
+                          "typeString": "int256"
+                        }
+                      },
+                      {
+                        "id": 6841,
+                        "name": "b",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 6833,
+                        "src": "245:1:65",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_int256",
+                          "typeString": "int256"
+                        }
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_int256",
+                          "typeString": "int256"
+                        },
+                        {
+                          "typeIdentifier": "t_int256",
+                          "typeString": "int256"
+                        }
+                      ],
+                      "expression": {
+                        "id": 6838,
+                        "name": "SignedSafeMath",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 17256,
+                        "src": "223:14:65",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_type$_t_contract$_SignedSafeMath_$17256_$",
+                          "typeString": "type(library SignedSafeMath)"
+                        }
+                      },
+                      "id": 6839,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberName": "mul",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 17210,
+                      "src": "223:18:65",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_internal_pure$_t_int256_$_t_int256_$returns$_t_int256_$",
+                        "typeString": "function (int256,int256) pure returns (int256)"
+                      }
+                    },
+                    "id": 6842,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "223:24:65",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_int256",
+                      "typeString": "int256"
+                    }
+                  },
+                  "functionReturnParameters": 6837,
+                  "id": 6843,
+                  "nodeType": "Return",
+                  "src": "216:31:65"
+                }
+              ]
+            },
+            "functionSelector": "bbe93d91",
+            "id": 6845,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "mul",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 6834,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 6831,
+                  "mutability": "mutable",
+                  "name": "a",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 6845,
+                  "src": "156:8:65",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_int256",
+                    "typeString": "int256"
+                  },
+                  "typeName": {
+                    "id": 6830,
+                    "name": "int256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "156:6:65",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_int256",
+                      "typeString": "int256"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 6833,
+                  "mutability": "mutable",
+                  "name": "b",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 6845,
+                  "src": "166:8:65",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_int256",
+                    "typeString": "int256"
+                  },
+                  "typeName": {
+                    "id": 6832,
+                    "name": "int256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "166:6:65",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_int256",
+                      "typeString": "int256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "155:20:65"
+            },
+            "returnParameters": {
+              "id": 6837,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 6836,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 6845,
+                  "src": "197:6:65",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_int256",
+                    "typeString": "int256"
+                  },
+                  "typeName": {
+                    "id": 6835,
+                    "name": "int256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "197:6:65",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_int256",
+                      "typeString": "int256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "196:8:65"
+            },
+            "scope": 6894,
+            "src": "143:112:65",
+            "stateMutability": "pure",
+            "virtual": false,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 6860,
+              "nodeType": "Block",
+              "src": "325:50:65",
+              "statements": [
+                {
+                  "expression": {
+                    "arguments": [
+                      {
+                        "id": 6856,
+                        "name": "a",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 6847,
+                        "src": "362:1:65",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_int256",
+                          "typeString": "int256"
+                        }
+                      },
+                      {
+                        "id": 6857,
+                        "name": "b",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 6849,
+                        "src": "365:1:65",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_int256",
+                          "typeString": "int256"
+                        }
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_int256",
+                          "typeString": "int256"
+                        },
+                        {
+                          "typeIdentifier": "t_int256",
+                          "typeString": "int256"
+                        }
+                      ],
+                      "expression": {
+                        "id": 6854,
+                        "name": "SignedSafeMath",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 17256,
+                        "src": "343:14:65",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_type$_t_contract$_SignedSafeMath_$17256_$",
+                          "typeString": "type(library SignedSafeMath)"
+                        }
+                      },
+                      "id": 6855,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberName": "div",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 17225,
+                      "src": "343:18:65",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_internal_pure$_t_int256_$_t_int256_$returns$_t_int256_$",
+                        "typeString": "function (int256,int256) pure returns (int256)"
+                      }
+                    },
+                    "id": 6858,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "343:24:65",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_int256",
+                      "typeString": "int256"
+                    }
+                  },
+                  "functionReturnParameters": 6853,
+                  "id": 6859,
+                  "nodeType": "Return",
+                  "src": "336:31:65"
+                }
+              ]
+            },
+            "functionSelector": "43509138",
+            "id": 6861,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "div",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 6850,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 6847,
+                  "mutability": "mutable",
+                  "name": "a",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 6861,
+                  "src": "276:8:65",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_int256",
+                    "typeString": "int256"
+                  },
+                  "typeName": {
+                    "id": 6846,
+                    "name": "int256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "276:6:65",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_int256",
+                      "typeString": "int256"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 6849,
+                  "mutability": "mutable",
+                  "name": "b",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 6861,
+                  "src": "286:8:65",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_int256",
+                    "typeString": "int256"
+                  },
+                  "typeName": {
+                    "id": 6848,
+                    "name": "int256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "286:6:65",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_int256",
+                      "typeString": "int256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "275:20:65"
+            },
+            "returnParameters": {
+              "id": 6853,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 6852,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 6861,
+                  "src": "317:6:65",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_int256",
+                    "typeString": "int256"
+                  },
+                  "typeName": {
+                    "id": 6851,
+                    "name": "int256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "317:6:65",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_int256",
+                      "typeString": "int256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "316:8:65"
+            },
+            "scope": 6894,
+            "src": "263:112:65",
+            "stateMutability": "pure",
+            "virtual": false,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 6876,
+              "nodeType": "Block",
+              "src": "445:50:65",
+              "statements": [
+                {
+                  "expression": {
+                    "arguments": [
+                      {
+                        "id": 6872,
+                        "name": "a",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 6863,
+                        "src": "482:1:65",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_int256",
+                          "typeString": "int256"
+                        }
+                      },
+                      {
+                        "id": 6873,
+                        "name": "b",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 6865,
+                        "src": "485:1:65",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_int256",
+                          "typeString": "int256"
+                        }
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_int256",
+                          "typeString": "int256"
+                        },
+                        {
+                          "typeIdentifier": "t_int256",
+                          "typeString": "int256"
+                        }
+                      ],
+                      "expression": {
+                        "id": 6870,
+                        "name": "SignedSafeMath",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 17256,
+                        "src": "463:14:65",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_type$_t_contract$_SignedSafeMath_$17256_$",
+                          "typeString": "type(library SignedSafeMath)"
+                        }
+                      },
+                      "id": 6871,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberName": "sub",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 17240,
+                      "src": "463:18:65",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_internal_pure$_t_int256_$_t_int256_$returns$_t_int256_$",
+                        "typeString": "function (int256,int256) pure returns (int256)"
+                      }
+                    },
+                    "id": 6874,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "463:24:65",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_int256",
+                      "typeString": "int256"
+                    }
+                  },
+                  "functionReturnParameters": 6869,
+                  "id": 6875,
+                  "nodeType": "Return",
+                  "src": "456:31:65"
+                }
+              ]
+            },
+            "functionSelector": "adefc37b",
+            "id": 6877,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "sub",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 6866,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 6863,
+                  "mutability": "mutable",
+                  "name": "a",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 6877,
+                  "src": "396:8:65",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_int256",
+                    "typeString": "int256"
+                  },
+                  "typeName": {
+                    "id": 6862,
+                    "name": "int256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "396:6:65",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_int256",
+                      "typeString": "int256"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 6865,
+                  "mutability": "mutable",
+                  "name": "b",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 6877,
+                  "src": "406:8:65",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_int256",
+                    "typeString": "int256"
+                  },
+                  "typeName": {
+                    "id": 6864,
+                    "name": "int256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "406:6:65",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_int256",
+                      "typeString": "int256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "395:20:65"
+            },
+            "returnParameters": {
+              "id": 6869,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 6868,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 6877,
+                  "src": "437:6:65",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_int256",
+                    "typeString": "int256"
+                  },
+                  "typeName": {
+                    "id": 6867,
+                    "name": "int256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "437:6:65",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_int256",
+                      "typeString": "int256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "436:8:65"
+            },
+            "scope": 6894,
+            "src": "383:112:65",
+            "stateMutability": "pure",
+            "virtual": false,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 6892,
+              "nodeType": "Block",
+              "src": "565:50:65",
+              "statements": [
+                {
+                  "expression": {
+                    "arguments": [
+                      {
+                        "id": 6888,
+                        "name": "a",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 6879,
+                        "src": "602:1:65",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_int256",
+                          "typeString": "int256"
+                        }
+                      },
+                      {
+                        "id": 6889,
+                        "name": "b",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 6881,
+                        "src": "605:1:65",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_int256",
+                          "typeString": "int256"
+                        }
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_int256",
+                          "typeString": "int256"
+                        },
+                        {
+                          "typeIdentifier": "t_int256",
+                          "typeString": "int256"
+                        }
+                      ],
+                      "expression": {
+                        "id": 6886,
+                        "name": "SignedSafeMath",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 17256,
+                        "src": "583:14:65",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_type$_t_contract$_SignedSafeMath_$17256_$",
+                          "typeString": "type(library SignedSafeMath)"
+                        }
+                      },
+                      "id": 6887,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberName": "add",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 17255,
+                      "src": "583:18:65",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_internal_pure$_t_int256_$_t_int256_$returns$_t_int256_$",
+                        "typeString": "function (int256,int256) pure returns (int256)"
+                      }
+                    },
+                    "id": 6890,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "583:24:65",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_int256",
+                      "typeString": "int256"
+                    }
+                  },
+                  "functionReturnParameters": 6885,
+                  "id": 6891,
+                  "nodeType": "Return",
+                  "src": "576:31:65"
+                }
+              ]
+            },
+            "functionSelector": "a5f3c23b",
+            "id": 6893,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "add",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 6882,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 6879,
+                  "mutability": "mutable",
+                  "name": "a",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 6893,
+                  "src": "516:8:65",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_int256",
+                    "typeString": "int256"
+                  },
+                  "typeName": {
+                    "id": 6878,
+                    "name": "int256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "516:6:65",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_int256",
+                      "typeString": "int256"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 6881,
+                  "mutability": "mutable",
+                  "name": "b",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 6893,
+                  "src": "526:8:65",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_int256",
+                    "typeString": "int256"
+                  },
+                  "typeName": {
+                    "id": 6880,
+                    "name": "int256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "526:6:65",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_int256",
+                      "typeString": "int256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "515:20:65"
+            },
+            "returnParameters": {
+              "id": 6885,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 6884,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 6893,
+                  "src": "557:6:65",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_int256",
+                    "typeString": "int256"
+                  },
+                  "typeName": {
+                    "id": 6883,
+                    "name": "int256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "557:6:65",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_int256",
+                      "typeString": "int256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "556:8:65"
+            },
+            "scope": 6894,
+            "src": "503:112:65",
+            "stateMutability": "pure",
+            "virtual": false,
+            "visibility": "public"
+          }
+        ],
+        "scope": 6895,
+        "src": "108:510:65"
+      }
+    ],
+    "src": "35:585:65"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.0+commit.c7dfd78e.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.2.3",
+  "updatedAt": "2021-03-26T09:42:14.101Z",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}
