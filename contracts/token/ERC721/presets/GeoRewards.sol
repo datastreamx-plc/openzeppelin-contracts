@@ -25,7 +25,7 @@ import "../../../utils/Counters.sol";
  * roles, as well as the default admin role, which will let it grant both minter
  * and pauser roles to other accounts.
  */
-contract ERC721PresetMinterPauserAutoId is Context, AccessControlEnumerable, ERC721Enumerable, ERC721Burnable, ERC721Pausable {
+contract GeoRewards is Context, AccessControlEnumerable, ERC721Enumerable, ERC721Burnable, ERC721Pausable {
     using Counters for Counters.Counter;
 
     bytes32 public constant MINTER_ROLE = keccak256("MINTER_ROLE");
