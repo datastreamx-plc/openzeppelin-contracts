@@ -300,7 +300,7 @@
     "absolutePath": "/C/Users/RogerGangaSundararaj/Documents/GitHub/openzeppelin-contracts/contracts/token/ERC20/ERC20.sol",
     "exportedSymbols": {
       "Context": [
-        15006
+        15030
       ],
       "ERC20": [
         10169
@@ -355,7 +355,7 @@
         "id": 9667,
         "nodeType": "ImportDirective",
         "scope": 10170,
-        "sourceUnit": 15007,
+        "sourceUnit": 15031,
         "src": "129:33:89",
         "symbolAliases": [],
         "unitAlias": ""
@@ -368,7 +368,7 @@
               "id": 9669,
               "name": "Context",
               "nodeType": "IdentifierPath",
-              "referencedDeclaration": 15006,
+              "referencedDeclaration": 15030,
               "src": "1371:7:89"
             },
             "id": 9670,
@@ -403,7 +403,7 @@
         "contractDependencies": [
           10247,
           10755,
-          15006
+          15030
         ],
         "contractKind": "contract",
         "documentation": {
@@ -418,7 +418,7 @@
           10169,
           10755,
           10247,
-          15006
+          15030
         ],
         "name": "ERC20",
         "nodeType": "ContractDefinition",
@@ -1329,7 +1329,7 @@
                           "name": "_msgSender",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 14994,
+                          "referencedDeclaration": 15018,
                           "src": "3880:10:89",
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_internal_view$__$returns$_t_address_$",
@@ -1781,7 +1781,7 @@
                           "name": "_msgSender",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 14994,
+                          "referencedDeclaration": 15018,
                           "src": "4412:10:89",
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_internal_view$__$returns$_t_address_$",
@@ -2189,7 +2189,7 @@
                         "name": "_msgSender",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 14994,
+                        "referencedDeclaration": 15018,
                         "src": "5173:10:89",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_internal_view$__$returns$_t_address_$",
@@ -2354,7 +2354,7 @@
                           "name": "_msgSender",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 14994,
+                          "referencedDeclaration": 15018,
                           "src": "5304:10:89",
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_internal_view$__$returns$_t_address_$",
@@ -2650,7 +2650,7 @@
                           "name": "_msgSender",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 14994,
+                          "referencedDeclaration": 15018,
                           "src": "5899:10:89",
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_internal_view$__$returns$_t_address_$",
@@ -2717,7 +2717,7 @@
                                 "name": "_msgSender",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 14994,
+                                "referencedDeclaration": 15018,
                                 "src": "5934:10:89",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_function_internal_view$__$returns$_t_address_$",
@@ -3038,7 +3038,7 @@
                           "name": "_msgSender",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 14994,
+                          "referencedDeclaration": 15018,
                           "src": "6652:10:89",
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_internal_view$__$returns$_t_address_$",
@@ -3215,7 +3215,7 @@
                           "name": "_msgSender",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 14994,
+                          "referencedDeclaration": 15018,
                           "src": "6790:10:89",
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_internal_view$__$returns$_t_address_$",
@@ -6604,7 +6604,7 @@
     "absolutePath": "/C/Users/RogerGangaSundararaj/Documents/GitHub/openzeppelin-contracts/contracts/token/ERC20/ERC20.sol",
     "exportedSymbols": {
       "Context": [
-        15006
+        15030
       ],
       "ERC20": [
         10169
@@ -6659,7 +6659,7 @@
         "id": 9667,
         "nodeType": "ImportDirective",
         "scope": 10170,
-        "sourceUnit": 15007,
+        "sourceUnit": 15031,
         "src": "129:33:89",
         "symbolAliases": [],
         "unitAlias": ""
@@ -6672,7 +6672,7 @@
               "id": 9669,
               "name": "Context",
               "nodeType": "IdentifierPath",
-              "referencedDeclaration": 15006,
+              "referencedDeclaration": 15030,
               "src": "1371:7:89"
             },
             "id": 9670,
@@ -6707,7 +6707,7 @@
         "contractDependencies": [
           10247,
           10755,
-          15006
+          15030
         ],
         "contractKind": "contract",
         "documentation": {
@@ -6722,7 +6722,7 @@
           10169,
           10755,
           10247,
-          15006
+          15030
         ],
         "name": "ERC20",
         "nodeType": "ContractDefinition",
@@ -7633,7 +7633,7 @@
                           "name": "_msgSender",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 14994,
+                          "referencedDeclaration": 15018,
                           "src": "3880:10:89",
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_internal_view$__$returns$_t_address_$",
@@ -8085,7 +8085,7 @@
                           "name": "_msgSender",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 14994,
+                          "referencedDeclaration": 15018,
                           "src": "4412:10:89",
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_internal_view$__$returns$_t_address_$",
@@ -8493,7 +8493,7 @@
                         "name": "_msgSender",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 14994,
+                        "referencedDeclaration": 15018,
                         "src": "5173:10:89",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_internal_view$__$returns$_t_address_$",
@@ -8658,7 +8658,7 @@
                           "name": "_msgSender",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 14994,
+                          "referencedDeclaration": 15018,
                           "src": "5304:10:89",
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_internal_view$__$returns$_t_address_$",
@@ -8954,7 +8954,7 @@
                           "name": "_msgSender",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 14994,
+                          "referencedDeclaration": 15018,
                           "src": "5899:10:89",
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_internal_view$__$returns$_t_address_$",
@@ -9021,7 +9021,7 @@
                                 "name": "_msgSender",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 14994,
+                                "referencedDeclaration": 15018,
                                 "src": "5934:10:89",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_function_internal_view$__$returns$_t_address_$",
@@ -9342,7 +9342,7 @@
                           "name": "_msgSender",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 14994,
+                          "referencedDeclaration": 15018,
                           "src": "6652:10:89",
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_internal_view$__$returns$_t_address_$",
@@ -9519,7 +9519,7 @@
                           "name": "_msgSender",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 14994,
+                          "referencedDeclaration": 15018,
                           "src": "6790:10:89",
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_internal_view$__$returns$_t_address_$",
@@ -12910,7 +12910,7 @@
   },
   "networks": {},
   "schemaVersion": "3.2.3",
-  "updatedAt": "2021-03-26T11:30:52.639Z",
+  "updatedAt": "2021-03-26T13:45:12.936Z",
   "devdoc": {
     "details": "Implementation of the {IERC20} interface. This implementation is agnostic to the way tokens are created. This means that a supply mechanism has to be added in a derived contract using {_mint}. For a generic mechanism see {ERC20PresetMinterPauser}. TIP: For a detailed writeup see our guide https://forum.zeppelin.solutions/t/how-to-implement-erc20-supply-mechanisms/226[How to implement supply mechanisms]. We have followed general OpenZeppelin guidelines: functions revert instead of returning `false` on failure. This behavior is nonetheless conventional and does not conflict with the expectations of ERC20 applications. Additionally, an {Approval} event is emitted on calls to {transferFrom}. This allows applications to reconstruct the allowance for all accounts just by listening to said events. Other implementations of the EIP may not emit these events, as it isn't required by the specification. Finally, the non-standard {decreaseAllowance} and {increaseAllowance} functions have been added to mitigate the well-known issues around setting allowances. See {IERC20-approve}.",
     "kind": "dev",

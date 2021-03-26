@@ -51,7 +51,7 @@
     "absolutePath": "/C/Users/RogerGangaSundararaj/Documents/GitHub/openzeppelin-contracts/contracts/proxy/ERC1967/ERC1967Proxy.sol",
     "exportedSymbols": {
       "Address": [
-        14898
+        14922
       ],
       "ERC1967Proxy": [
         7212
@@ -92,7 +92,7 @@
         "id": 7109,
         "nodeType": "ImportDirective",
         "scope": 7213,
-        "sourceUnit": 14899,
+        "sourceUnit": 14923,
         "src": "86:33:69",
         "symbolAliases": [],
         "unitAlias": ""
@@ -549,10 +549,10 @@
                               "name": "Address",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 14898,
+                              "referencedDeclaration": 14922,
                               "src": "1280:7:69",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_type$_t_contract$_Address_$14898_$",
+                                "typeIdentifier": "t_type$_t_contract$_Address_$14922_$",
                                 "typeString": "type(library Address)"
                               }
                             },
@@ -563,7 +563,7 @@
                             "lValueRequested": false,
                             "memberName": "functionDelegateCall",
                             "nodeType": "MemberAccess",
-                            "referencedDeclaration": 14832,
+                            "referencedDeclaration": 14856,
                             "src": "1280:28:69",
                             "typeDescriptions": {
                               "typeIdentifier": "t_function_internal_nonpayable$_t_address_$_t_bytes_memory_ptr_$returns$_t_bytes_memory_ptr_$",
@@ -1160,10 +1160,10 @@
                             "name": "Address",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 14898,
+                            "referencedDeclaration": 14922,
                             "src": "2626:7:69",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_type$_t_contract$_Address_$14898_$",
+                              "typeIdentifier": "t_type$_t_contract$_Address_$14922_$",
                               "typeString": "type(library Address)"
                             }
                           },
@@ -1174,7 +1174,7 @@
                           "lValueRequested": false,
                           "memberName": "isContract",
                           "nodeType": "MemberAccess",
-                          "referencedDeclaration": 14622,
+                          "referencedDeclaration": 14646,
                           "src": "2626:18:69",
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_internal_view$_t_address_$returns$_t_bool_$",
@@ -1429,7 +1429,7 @@
     "absolutePath": "/C/Users/RogerGangaSundararaj/Documents/GitHub/openzeppelin-contracts/contracts/proxy/ERC1967/ERC1967Proxy.sol",
     "exportedSymbols": {
       "Address": [
-        14898
+        14922
       ],
       "ERC1967Proxy": [
         7212
@@ -1470,7 +1470,7 @@
         "id": 7109,
         "nodeType": "ImportDirective",
         "scope": 7213,
-        "sourceUnit": 14899,
+        "sourceUnit": 14923,
         "src": "86:33:69",
         "symbolAliases": [],
         "unitAlias": ""
@@ -1927,10 +1927,10 @@
                               "name": "Address",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 14898,
+                              "referencedDeclaration": 14922,
                               "src": "1280:7:69",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_type$_t_contract$_Address_$14898_$",
+                                "typeIdentifier": "t_type$_t_contract$_Address_$14922_$",
                                 "typeString": "type(library Address)"
                               }
                             },
@@ -1941,7 +1941,7 @@
                             "lValueRequested": false,
                             "memberName": "functionDelegateCall",
                             "nodeType": "MemberAccess",
-                            "referencedDeclaration": 14832,
+                            "referencedDeclaration": 14856,
                             "src": "1280:28:69",
                             "typeDescriptions": {
                               "typeIdentifier": "t_function_internal_nonpayable$_t_address_$_t_bytes_memory_ptr_$returns$_t_bytes_memory_ptr_$",
@@ -2538,10 +2538,10 @@
                             "name": "Address",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 14898,
+                            "referencedDeclaration": 14922,
                             "src": "2626:7:69",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_type$_t_contract$_Address_$14898_$",
+                              "typeIdentifier": "t_type$_t_contract$_Address_$14922_$",
                               "typeString": "type(library Address)"
                             }
                           },
@@ -2552,7 +2552,7 @@
                           "lValueRequested": false,
                           "memberName": "isContract",
                           "nodeType": "MemberAccess",
-                          "referencedDeclaration": 14622,
+                          "referencedDeclaration": 14646,
                           "src": "2626:18:69",
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_internal_view$_t_address_$returns$_t_bool_$",
@@ -2809,7 +2809,7 @@
   },
   "networks": {},
   "schemaVersion": "3.2.3",
-  "updatedAt": "2021-03-26T11:30:52.439Z",
+  "updatedAt": "2021-03-26T13:45:12.849Z",
   "devdoc": {
     "details": "This contract implements an upgradeable proxy. It is upgradeable because calls are delegated to an implementation address that can be changed. This address is stored in storage in the location specified by https://eips.ethereum.org/EIPS/eip-1967[EIP1967], so that it doesn't conflict with the storage layout of the implementation behind the proxy. Upgradeability is only provided internally through {_upgradeTo}. For an externally upgradeable proxy see {TransparentUpgradeableProxy}.",
     "events": {

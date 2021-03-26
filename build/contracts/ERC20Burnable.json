@@ -315,7 +315,7 @@
     "absolutePath": "/C/Users/RogerGangaSundararaj/Documents/GitHub/openzeppelin-contracts/contracts/token/ERC20/extensions/ERC20Burnable.sol",
     "exportedSymbols": {
       "Context": [
-        15006
+        15030
       ],
       "ERC20": [
         10169
@@ -362,7 +362,7 @@
         "id": 10251,
         "nodeType": "ImportDirective",
         "scope": 10309,
-        "sourceUnit": 15007,
+        "sourceUnit": 15031,
         "src": "86:36:91",
         "symbolAliases": [],
         "unitAlias": ""
@@ -375,7 +375,7 @@
               "id": 10253,
               "name": "Context",
               "nodeType": "IdentifierPath",
-              "referencedDeclaration": 15006,
+              "referencedDeclaration": 15030,
               "src": "375:7:91"
             },
             "id": 10254,
@@ -399,7 +399,7 @@
           10169,
           10247,
           10755,
-          15006
+          15030
         ],
         "contractKind": "contract",
         "documentation": {
@@ -415,7 +415,7 @@
           10169,
           10755,
           10247,
-          15006
+          15030
         ],
         "name": "ERC20Burnable",
         "nodeType": "ContractDefinition",
@@ -437,7 +437,7 @@
                           "name": "_msgSender",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 14994,
+                          "referencedDeclaration": 15018,
                           "src": "567:10:91",
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_internal_view$__$returns$_t_address_$",
@@ -634,7 +634,7 @@
                           "name": "_msgSender",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 14994,
+                          "referencedDeclaration": 15018,
                           "src": "1038:10:91",
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_internal_view$__$returns$_t_address_$",
@@ -826,7 +826,7 @@
                           "name": "_msgSender",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 14994,
+                          "referencedDeclaration": 15018,
                           "src": "1166:10:91",
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_internal_view$__$returns$_t_address_$",
@@ -1103,7 +1103,7 @@
     "absolutePath": "/C/Users/RogerGangaSundararaj/Documents/GitHub/openzeppelin-contracts/contracts/token/ERC20/extensions/ERC20Burnable.sol",
     "exportedSymbols": {
       "Context": [
-        15006
+        15030
       ],
       "ERC20": [
         10169
@@ -1150,7 +1150,7 @@
         "id": 10251,
         "nodeType": "ImportDirective",
         "scope": 10309,
-        "sourceUnit": 15007,
+        "sourceUnit": 15031,
         "src": "86:36:91",
         "symbolAliases": [],
         "unitAlias": ""
@@ -1163,7 +1163,7 @@
               "id": 10253,
               "name": "Context",
               "nodeType": "IdentifierPath",
-              "referencedDeclaration": 15006,
+              "referencedDeclaration": 15030,
               "src": "375:7:91"
             },
             "id": 10254,
@@ -1187,7 +1187,7 @@
           10169,
           10247,
           10755,
-          15006
+          15030
         ],
         "contractKind": "contract",
         "documentation": {
@@ -1203,7 +1203,7 @@
           10169,
           10755,
           10247,
-          15006
+          15030
         ],
         "name": "ERC20Burnable",
         "nodeType": "ContractDefinition",
@@ -1225,7 +1225,7 @@
                           "name": "_msgSender",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 14994,
+                          "referencedDeclaration": 15018,
                           "src": "567:10:91",
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_internal_view$__$returns$_t_address_$",
@@ -1422,7 +1422,7 @@
                           "name": "_msgSender",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 14994,
+                          "referencedDeclaration": 15018,
                           "src": "1038:10:91",
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_internal_view$__$returns$_t_address_$",
@@ -1614,7 +1614,7 @@
                           "name": "_msgSender",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 14994,
+                          "referencedDeclaration": 15018,
                           "src": "1166:10:91",
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_internal_view$__$returns$_t_address_$",
@@ -1893,7 +1893,7 @@
   },
   "networks": {},
   "schemaVersion": "3.2.3",
-  "updatedAt": "2021-03-26T11:30:52.664Z",
+  "updatedAt": "2021-03-26T13:45:12.951Z",
   "devdoc": {
     "details": "Extension of {ERC20} that allows token holders to destroy both their own tokens and those that they have an allowance for, in a way that can be recognized off-chain (via event analysis).",
     "kind": "dev",

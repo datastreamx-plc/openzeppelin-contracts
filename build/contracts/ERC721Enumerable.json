@@ -400,13 +400,13 @@
     "absolutePath": "/C/Users/RogerGangaSundararaj/Documents/GitHub/openzeppelin-contracts/contracts/token/ERC721/extensions/ERC721Enumerable.sol",
     "exportedSymbols": {
       "Address": [
-        14898
+        14922
       ],
       "Context": [
-        15006
+        15030
       ],
       "ERC165": [
-        16064
+        16088
       ],
       "ERC721": [
         12282
@@ -415,7 +415,7 @@
         12784
       ],
       "IERC165": [
-        16390
+        16414
       ],
       "IERC721": [
         12398
@@ -430,7 +430,7 @@
         12416
       ],
       "Strings": [
-        15381
+        15405
       ]
     },
     "id": 12785,
@@ -503,9 +503,9 @@
           12398,
           12980,
           13007,
-          15006,
-          16064,
-          16390
+          15030,
+          16088,
+          16414
         ],
         "contractKind": "contract",
         "documentation": {
@@ -522,9 +522,9 @@
           12282,
           13007,
           12398,
-          16064,
-          16390,
-          15006
+          16088,
+          16414,
+          15030
         ],
         "name": "ERC721Enumerable",
         "nodeType": "ContractDefinition",
@@ -721,7 +721,7 @@
           {
             "baseFunctions": [
               11558,
-              16389
+              16413
             ],
             "body": {
               "id": 12495,
@@ -930,7 +930,7 @@
                   "id": 12477,
                   "name": "IERC165",
                   "nodeType": "IdentifierPath",
-                  "referencedDeclaration": 16390,
+                  "referencedDeclaration": 16414,
                   "src": "1014:7:106"
                 },
                 {
@@ -4420,13 +4420,13 @@
     "absolutePath": "/C/Users/RogerGangaSundararaj/Documents/GitHub/openzeppelin-contracts/contracts/token/ERC721/extensions/ERC721Enumerable.sol",
     "exportedSymbols": {
       "Address": [
-        14898
+        14922
       ],
       "Context": [
-        15006
+        15030
       ],
       "ERC165": [
-        16064
+        16088
       ],
       "ERC721": [
         12282
@@ -4435,7 +4435,7 @@
         12784
       ],
       "IERC165": [
-        16390
+        16414
       ],
       "IERC721": [
         12398
@@ -4450,7 +4450,7 @@
         12416
       ],
       "Strings": [
-        15381
+        15405
       ]
     },
     "id": 12785,
@@ -4523,9 +4523,9 @@
           12398,
           12980,
           13007,
-          15006,
-          16064,
-          16390
+          15030,
+          16088,
+          16414
         ],
         "contractKind": "contract",
         "documentation": {
@@ -4542,9 +4542,9 @@
           12282,
           13007,
           12398,
-          16064,
-          16390,
-          15006
+          16088,
+          16414,
+          15030
         ],
         "name": "ERC721Enumerable",
         "nodeType": "ContractDefinition",
@@ -4741,7 +4741,7 @@
           {
             "baseFunctions": [
               11558,
-              16389
+              16413
             ],
             "body": {
               "id": 12495,
@@ -4950,7 +4950,7 @@
                   "id": 12477,
                   "name": "IERC165",
                   "nodeType": "IdentifierPath",
-                  "referencedDeclaration": 16390,
+                  "referencedDeclaration": 16414,
                   "src": "1014:7:106"
                 },
                 {
@@ -8442,7 +8442,7 @@
   },
   "networks": {},
   "schemaVersion": "3.2.3",
-  "updatedAt": "2021-03-26T11:30:52.854Z",
+  "updatedAt": "2021-03-26T13:45:13.024Z",
   "devdoc": {
     "details": "This implements an optional extension of {ERC721} defined in the EIP that adds enumerability of all the token ids in the contract as well as all token ids owned by each account.",
     "kind": "dev",

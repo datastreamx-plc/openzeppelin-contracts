@@ -114,13 +114,13 @@
         9662
       ],
       "ERC165": [
-        16064
+        16088
       ],
       "IERC1155Receiver": [
         9247
       ],
       "IERC165": [
-        16390
+        16414
       ]
     },
     "id": 9663,
@@ -155,7 +155,7 @@
         "id": 9632,
         "nodeType": "ImportDirective",
         "scope": 9663,
-        "sourceUnit": 16065,
+        "sourceUnit": 16089,
         "src": "97:49:88",
         "symbolAliases": [],
         "unitAlias": ""
@@ -168,7 +168,7 @@
               "id": 9634,
               "name": "ERC165",
               "nodeType": "IdentifierPath",
-              "referencedDeclaration": 16064,
+              "referencedDeclaration": 16088,
               "src": "230:6:88"
             },
             "id": 9635,
@@ -190,8 +190,8 @@
         ],
         "contractDependencies": [
           9247,
-          16064,
-          16390
+          16088,
+          16414
         ],
         "contractKind": "contract",
         "documentation": {
@@ -205,16 +205,16 @@
         "linearizedBaseContracts": [
           9662,
           9247,
-          16064,
-          16390
+          16088,
+          16414
         ],
         "name": "ERC1155Receiver",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "baseFunctions": [
-              16063,
-              16389
+              16087,
+              16413
             ],
             "body": {
               "id": 9660,
@@ -367,7 +367,7 @@
                         "lValueRequested": false,
                         "memberName": "supportsInterface",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 16063,
+                        "referencedDeclaration": 16087,
                         "src": "518:23:88",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_internal_view$_t_bytes4_$returns$_t_bool_$",
@@ -423,14 +423,14 @@
                   "id": 9642,
                   "name": "ERC165",
                   "nodeType": "IdentifierPath",
-                  "referencedDeclaration": 16064,
+                  "referencedDeclaration": 16088,
                   "src": "402:6:88"
                 },
                 {
                   "id": 9643,
                   "name": "IERC165",
                   "nodeType": "IdentifierPath",
-                  "referencedDeclaration": 16390,
+                  "referencedDeclaration": 16414,
                   "src": "410:7:88"
                 }
               ],
@@ -522,13 +522,13 @@
         9662
       ],
       "ERC165": [
-        16064
+        16088
       ],
       "IERC1155Receiver": [
         9247
       ],
       "IERC165": [
-        16390
+        16414
       ]
     },
     "id": 9663,
@@ -563,7 +563,7 @@
         "id": 9632,
         "nodeType": "ImportDirective",
         "scope": 9663,
-        "sourceUnit": 16065,
+        "sourceUnit": 16089,
         "src": "97:49:88",
         "symbolAliases": [],
         "unitAlias": ""
@@ -576,7 +576,7 @@
               "id": 9634,
               "name": "ERC165",
               "nodeType": "IdentifierPath",
-              "referencedDeclaration": 16064,
+              "referencedDeclaration": 16088,
               "src": "230:6:88"
             },
             "id": 9635,
@@ -598,8 +598,8 @@
         ],
         "contractDependencies": [
           9247,
-          16064,
-          16390
+          16088,
+          16414
         ],
         "contractKind": "contract",
         "documentation": {
@@ -613,16 +613,16 @@
         "linearizedBaseContracts": [
           9662,
           9247,
-          16064,
-          16390
+          16088,
+          16414
         ],
         "name": "ERC1155Receiver",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "baseFunctions": [
-              16063,
-              16389
+              16087,
+              16413
             ],
             "body": {
               "id": 9660,
@@ -775,7 +775,7 @@
                         "lValueRequested": false,
                         "memberName": "supportsInterface",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 16063,
+                        "referencedDeclaration": 16087,
                         "src": "518:23:88",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_internal_view$_t_bytes4_$returns$_t_bool_$",
@@ -831,14 +831,14 @@
                   "id": 9642,
                   "name": "ERC165",
                   "nodeType": "IdentifierPath",
-                  "referencedDeclaration": 16064,
+                  "referencedDeclaration": 16088,
                   "src": "402:6:88"
                 },
                 {
                   "id": 9643,
                   "name": "IERC165",
                   "nodeType": "IdentifierPath",
-                  "referencedDeclaration": 16390,
+                  "referencedDeclaration": 16414,
                   "src": "410:7:88"
                 }
               ],
@@ -929,7 +929,7 @@
   },
   "networks": {},
   "schemaVersion": "3.2.3",
-  "updatedAt": "2021-03-26T11:30:52.621Z",
+  "updatedAt": "2021-03-26T13:45:12.930Z",
   "devdoc": {
     "details": "_Available since v3.1._",
     "kind": "dev",

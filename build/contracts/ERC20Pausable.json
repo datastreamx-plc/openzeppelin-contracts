@@ -323,7 +323,7 @@
     "absolutePath": "/C/Users/RogerGangaSundararaj/Documents/GitHub/openzeppelin-contracts/contracts/token/ERC20/extensions/ERC20Pausable.sol",
     "exportedSymbols": {
       "Context": [
-        15006
+        15030
       ],
       "ERC20": [
         10169
@@ -411,7 +411,7 @@
           10169,
           10247,
           10755,
-          15006
+          15030
         ],
         "contractKind": "contract",
         "documentation": {
@@ -428,7 +428,7 @@
           10169,
           10755,
           10247,
-          15006
+          15030
         ],
         "name": "ERC20Pausable",
         "nodeType": "ContractDefinition",
@@ -781,7 +781,7 @@
     "absolutePath": "/C/Users/RogerGangaSundararaj/Documents/GitHub/openzeppelin-contracts/contracts/token/ERC20/extensions/ERC20Pausable.sol",
     "exportedSymbols": {
       "Context": [
-        15006
+        15030
       ],
       "ERC20": [
         10169
@@ -869,7 +869,7 @@
           10169,
           10247,
           10755,
-          15006
+          15030
         ],
         "contractKind": "contract",
         "documentation": {
@@ -886,7 +886,7 @@
           10169,
           10755,
           10247,
-          15006
+          15030
         ],
         "name": "ERC20Pausable",
         "nodeType": "ContractDefinition",
@@ -1241,7 +1241,7 @@
   },
   "networks": {},
   "schemaVersion": "3.2.3",
-  "updatedAt": "2021-03-26T11:30:52.677Z",
+  "updatedAt": "2021-03-26T13:45:12.959Z",
   "devdoc": {
     "details": "ERC20 token with pausable token transfers, minting and burning. Useful for scenarios such as preventing trades until the end of an evaluation period, or having an emergency switch for freezing all token transfers in the event of a large bug.",
     "kind": "dev",

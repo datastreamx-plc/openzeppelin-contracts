@@ -344,13 +344,13 @@
     "absolutePath": "/C/Users/RogerGangaSundararaj/Documents/GitHub/openzeppelin-contracts/contracts/token/ERC721/extensions/ERC721URIStorage.sol",
     "exportedSymbols": {
       "Address": [
-        14898
+        14922
       ],
       "Context": [
-        15006
+        15030
       ],
       "ERC165": [
-        16064
+        16088
       ],
       "ERC721": [
         12282
@@ -359,7 +359,7 @@
         12949
       ],
       "IERC165": [
-        16390
+        16414
       ],
       "IERC721": [
         12398
@@ -371,7 +371,7 @@
         12416
       ],
       "Strings": [
-        15381
+        15405
       ]
     },
     "id": 12950,
@@ -420,9 +420,9 @@
           12282,
           12398,
           13007,
-          15006,
-          16064,
-          16390
+          15030,
+          16088,
+          16414
         ],
         "contractKind": "contract",
         "documentation": {
@@ -438,9 +438,9 @@
           12282,
           13007,
           12398,
-          16064,
-          16390,
-          15006
+          16088,
+          16414,
+          15030
         ],
         "name": "ERC721URIStorage",
         "nodeType": "ContractDefinition",
@@ -451,7 +451,7 @@
               "id": 12828,
               "name": "Strings",
               "nodeType": "IdentifierPath",
-              "referencedDeclaration": 15381,
+              "referencedDeclaration": 15405,
               "src": "220:7:108"
             },
             "nodeType": "UsingForDirective",
@@ -1934,13 +1934,13 @@
     "absolutePath": "/C/Users/RogerGangaSundararaj/Documents/GitHub/openzeppelin-contracts/contracts/token/ERC721/extensions/ERC721URIStorage.sol",
     "exportedSymbols": {
       "Address": [
-        14898
+        14922
       ],
       "Context": [
-        15006
+        15030
       ],
       "ERC165": [
-        16064
+        16088
       ],
       "ERC721": [
         12282
@@ -1949,7 +1949,7 @@
         12949
       ],
       "IERC165": [
-        16390
+        16414
       ],
       "IERC721": [
         12398
@@ -1961,7 +1961,7 @@
         12416
       ],
       "Strings": [
-        15381
+        15405
       ]
     },
     "id": 12950,
@@ -2010,9 +2010,9 @@
           12282,
           12398,
           13007,
-          15006,
-          16064,
-          16390
+          15030,
+          16088,
+          16414
         ],
         "contractKind": "contract",
         "documentation": {
@@ -2028,9 +2028,9 @@
           12282,
           13007,
           12398,
-          16064,
-          16390,
-          15006
+          16088,
+          16414,
+          15030
         ],
         "name": "ERC721URIStorage",
         "nodeType": "ContractDefinition",
@@ -2041,7 +2041,7 @@
               "id": 12828,
               "name": "Strings",
               "nodeType": "IdentifierPath",
-              "referencedDeclaration": 15381,
+              "referencedDeclaration": 15405,
               "src": "220:7:108"
             },
             "nodeType": "UsingForDirective",
@@ -3526,7 +3526,7 @@
   },
   "networks": {},
   "schemaVersion": "3.2.3",
-  "updatedAt": "2021-03-26T11:30:52.908Z",
+  "updatedAt": "2021-03-26T13:45:13.035Z",
   "devdoc": {
     "details": "ERC721 token with storage based token URI management.",
     "kind": "dev",

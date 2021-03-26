@@ -337,16 +337,16 @@
     "absolutePath": "/C/Users/RogerGangaSundararaj/Documents/GitHub/openzeppelin-contracts/contracts/token/ERC1155/ERC1155.sol",
     "exportedSymbols": {
       "Address": [
-        14898
+        14922
       ],
       "Context": [
-        15006
+        15030
       ],
       "ERC1155": [
         9084
       ],
       "ERC165": [
-        16064
+        16088
       ],
       "IERC1155": [
         9206
@@ -358,7 +358,7 @@
         9247
       ],
       "IERC165": [
-        16390
+        16414
       ]
     },
     "id": 9085,
@@ -415,7 +415,7 @@
         "id": 8057,
         "nodeType": "ImportDirective",
         "scope": 9085,
-        "sourceUnit": 14899,
+        "sourceUnit": 14923,
         "src": "170:33:80",
         "symbolAliases": [],
         "unitAlias": ""
@@ -426,7 +426,7 @@
         "id": 8058,
         "nodeType": "ImportDirective",
         "scope": 9085,
-        "sourceUnit": 15007,
+        "sourceUnit": 15031,
         "src": "205:33:80",
         "symbolAliases": [],
         "unitAlias": ""
@@ -437,7 +437,7 @@
         "id": 8059,
         "nodeType": "ImportDirective",
         "scope": 9085,
-        "sourceUnit": 16065,
+        "sourceUnit": 16089,
         "src": "240:46:80",
         "symbolAliases": [],
         "unitAlias": ""
@@ -450,7 +450,7 @@
               "id": 8061,
               "name": "Context",
               "nodeType": "IdentifierPath",
-              "referencedDeclaration": 15006,
+              "referencedDeclaration": 15030,
               "src": "536:7:80"
             },
             "id": 8062,
@@ -462,7 +462,7 @@
               "id": 8063,
               "name": "ERC165",
               "nodeType": "IdentifierPath",
-              "referencedDeclaration": 16064,
+              "referencedDeclaration": 16088,
               "src": "545:6:80"
             },
             "id": 8064,
@@ -497,9 +497,9 @@
         "contractDependencies": [
           9206,
           9379,
-          15006,
-          16064,
-          16390
+          15030,
+          16088,
+          16414
         ],
         "contractKind": "contract",
         "documentation": {
@@ -514,9 +514,9 @@
           9084,
           9379,
           9206,
-          16064,
-          16390,
-          15006
+          16088,
+          16414,
+          15030
         ],
         "name": "ERC1155",
         "nodeType": "ContractDefinition",
@@ -527,7 +527,7 @@
               "id": 8069,
               "name": "Address",
               "nodeType": "IdentifierPath",
-              "referencedDeclaration": 14898,
+              "referencedDeclaration": 14922,
               "src": "596:7:80"
             },
             "nodeType": "UsingForDirective",
@@ -818,8 +818,8 @@
           },
           {
             "baseFunctions": [
-              16063,
-              16389
+              16087,
+              16413
             ],
             "body": {
               "id": 8126,
@@ -1082,7 +1082,7 @@
                         "lValueRequested": false,
                         "memberName": "supportsInterface",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 16063,
+                        "referencedDeclaration": 16087,
                         "src": "1460:23:80",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_internal_view$_t_bytes4_$returns$_t_bool_$",
@@ -1138,14 +1138,14 @@
                   "id": 8101,
                   "name": "ERC165",
                   "nodeType": "IdentifierPath",
-                  "referencedDeclaration": 16064,
+                  "referencedDeclaration": 16088,
                   "src": "1283:6:80"
                 },
                 {
                   "id": 8102,
                   "name": "IERC165",
                   "nodeType": "IdentifierPath",
-                  "referencedDeclaration": 16390,
+                  "referencedDeclaration": 16414,
                   "src": "1291:7:80"
                 }
               ],
@@ -2481,7 +2481,7 @@
                             "name": "_msgSender",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 14994,
+                            "referencedDeclaration": 15018,
                             "src": "3293:10:80",
                             "typeDescriptions": {
                               "typeIdentifier": "t_function_internal_view$__$returns$_t_address_$",
@@ -2614,7 +2614,7 @@
                             "name": "_msgSender",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 14994,
+                            "referencedDeclaration": 15018,
                             "src": "3395:10:80",
                             "typeDescriptions": {
                               "typeIdentifier": "t_function_internal_view$__$returns$_t_address_$",
@@ -2706,7 +2706,7 @@
                           "name": "_msgSender",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 14994,
+                          "referencedDeclaration": 15018,
                           "src": "3460:10:80",
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_internal_view$__$returns$_t_address_$",
@@ -3297,7 +3297,7 @@
                               "name": "_msgSender",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 14994,
+                              "referencedDeclaration": 15018,
                               "src": "4138:10:80",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_function_internal_view$__$returns$_t_address_$",
@@ -3349,7 +3349,7 @@
                                 "name": "_msgSender",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 14994,
+                                "referencedDeclaration": 15018,
                                 "src": "4177:10:80",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_function_internal_view$__$returns$_t_address_$",
@@ -3518,7 +3518,7 @@
                       "name": "_msgSender",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 14994,
+                      "referencedDeclaration": 15018,
                       "src": "4291:10:80",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_view$__$returns$_t_address_$",
@@ -4932,7 +4932,7 @@
                               "name": "_msgSender",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 14994,
+                              "referencedDeclaration": 15018,
                               "src": "5316:10:80",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_function_internal_view$__$returns$_t_address_$",
@@ -4984,7 +4984,7 @@
                                 "name": "_msgSender",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 14994,
+                                "referencedDeclaration": 15018,
                                 "src": "5355:10:80",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_function_internal_view$__$returns$_t_address_$",
@@ -5153,7 +5153,7 @@
                       "name": "_msgSender",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 14994,
+                      "referencedDeclaration": 15018,
                       "src": "5478:10:80",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_view$__$returns$_t_address_$",
@@ -6779,7 +6779,7 @@
                       "name": "_msgSender",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 14994,
+                      "referencedDeclaration": 15018,
                       "src": "7652:10:80",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_view$__$returns$_t_address_$",
@@ -7970,7 +7970,7 @@
                       "name": "_msgSender",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 14994,
+                      "referencedDeclaration": 15018,
                       "src": "8671:10:80",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_view$__$returns$_t_address_$",
@@ -9175,7 +9175,7 @@
                       "name": "_msgSender",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 14994,
+                      "referencedDeclaration": 15018,
                       "src": "9495:10:80",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_view$__$returns$_t_address_$",
@@ -10397,7 +10397,7 @@
                       "name": "_msgSender",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 14994,
+                      "referencedDeclaration": 15018,
                       "src": "10420:10:80",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_view$__$returns$_t_address_$",
@@ -11772,7 +11772,7 @@
                       "lValueRequested": false,
                       "memberName": "isContract",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 14622,
+                      "referencedDeclaration": 14646,
                       "src": "12389:13:80",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_view$_t_address_$returns$_t_bool_$bound_to$_t_address_$",
@@ -12591,7 +12591,7 @@
                       "lValueRequested": false,
                       "memberName": "isContract",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 14622,
+                      "referencedDeclaration": 14646,
                       "src": "13184:13:80",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_view$_t_address_$returns$_t_bool_$bound_to$_t_address_$",
@@ -13711,16 +13711,16 @@
     "absolutePath": "/C/Users/RogerGangaSundararaj/Documents/GitHub/openzeppelin-contracts/contracts/token/ERC1155/ERC1155.sol",
     "exportedSymbols": {
       "Address": [
-        14898
+        14922
       ],
       "Context": [
-        15006
+        15030
       ],
       "ERC1155": [
         9084
       ],
       "ERC165": [
-        16064
+        16088
       ],
       "IERC1155": [
         9206
@@ -13732,7 +13732,7 @@
         9247
       ],
       "IERC165": [
-        16390
+        16414
       ]
     },
     "id": 9085,
@@ -13789,7 +13789,7 @@
         "id": 8057,
         "nodeType": "ImportDirective",
         "scope": 9085,
-        "sourceUnit": 14899,
+        "sourceUnit": 14923,
         "src": "170:33:80",
         "symbolAliases": [],
         "unitAlias": ""
@@ -13800,7 +13800,7 @@
         "id": 8058,
         "nodeType": "ImportDirective",
         "scope": 9085,
-        "sourceUnit": 15007,
+        "sourceUnit": 15031,
         "src": "205:33:80",
         "symbolAliases": [],
         "unitAlias": ""
@@ -13811,7 +13811,7 @@
         "id": 8059,
         "nodeType": "ImportDirective",
         "scope": 9085,
-        "sourceUnit": 16065,
+        "sourceUnit": 16089,
         "src": "240:46:80",
         "symbolAliases": [],
         "unitAlias": ""
@@ -13824,7 +13824,7 @@
               "id": 8061,
               "name": "Context",
               "nodeType": "IdentifierPath",
-              "referencedDeclaration": 15006,
+              "referencedDeclaration": 15030,
               "src": "536:7:80"
             },
             "id": 8062,
@@ -13836,7 +13836,7 @@
               "id": 8063,
               "name": "ERC165",
               "nodeType": "IdentifierPath",
-              "referencedDeclaration": 16064,
+              "referencedDeclaration": 16088,
               "src": "545:6:80"
             },
             "id": 8064,
@@ -13871,9 +13871,9 @@
         "contractDependencies": [
           9206,
           9379,
-          15006,
-          16064,
-          16390
+          15030,
+          16088,
+          16414
         ],
         "contractKind": "contract",
         "documentation": {
@@ -13888,9 +13888,9 @@
           9084,
           9379,
           9206,
-          16064,
-          16390,
-          15006
+          16088,
+          16414,
+          15030
         ],
         "name": "ERC1155",
         "nodeType": "ContractDefinition",
@@ -13901,7 +13901,7 @@
               "id": 8069,
               "name": "Address",
               "nodeType": "IdentifierPath",
-              "referencedDeclaration": 14898,
+              "referencedDeclaration": 14922,
               "src": "596:7:80"
             },
             "nodeType": "UsingForDirective",
@@ -14192,8 +14192,8 @@
           },
           {
             "baseFunctions": [
-              16063,
-              16389
+              16087,
+              16413
             ],
             "body": {
               "id": 8126,
@@ -14456,7 +14456,7 @@
                         "lValueRequested": false,
                         "memberName": "supportsInterface",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 16063,
+                        "referencedDeclaration": 16087,
                         "src": "1460:23:80",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_internal_view$_t_bytes4_$returns$_t_bool_$",
@@ -14512,14 +14512,14 @@
                   "id": 8101,
                   "name": "ERC165",
                   "nodeType": "IdentifierPath",
-                  "referencedDeclaration": 16064,
+                  "referencedDeclaration": 16088,
                   "src": "1283:6:80"
                 },
                 {
                   "id": 8102,
                   "name": "IERC165",
                   "nodeType": "IdentifierPath",
-                  "referencedDeclaration": 16390,
+                  "referencedDeclaration": 16414,
                   "src": "1291:7:80"
                 }
               ],
@@ -15855,7 +15855,7 @@
                             "name": "_msgSender",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 14994,
+                            "referencedDeclaration": 15018,
                             "src": "3293:10:80",
                             "typeDescriptions": {
                               "typeIdentifier": "t_function_internal_view$__$returns$_t_address_$",
@@ -15988,7 +15988,7 @@
                             "name": "_msgSender",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 14994,
+                            "referencedDeclaration": 15018,
                             "src": "3395:10:80",
                             "typeDescriptions": {
                               "typeIdentifier": "t_function_internal_view$__$returns$_t_address_$",
@@ -16080,7 +16080,7 @@
                           "name": "_msgSender",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 14994,
+                          "referencedDeclaration": 15018,
                           "src": "3460:10:80",
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_internal_view$__$returns$_t_address_$",
@@ -16671,7 +16671,7 @@
                               "name": "_msgSender",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 14994,
+                              "referencedDeclaration": 15018,
                               "src": "4138:10:80",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_function_internal_view$__$returns$_t_address_$",
@@ -16723,7 +16723,7 @@
                                 "name": "_msgSender",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 14994,
+                                "referencedDeclaration": 15018,
                                 "src": "4177:10:80",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_function_internal_view$__$returns$_t_address_$",
@@ -16892,7 +16892,7 @@
                       "name": "_msgSender",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 14994,
+                      "referencedDeclaration": 15018,
                       "src": "4291:10:80",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_view$__$returns$_t_address_$",
@@ -18306,7 +18306,7 @@
                               "name": "_msgSender",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 14994,
+                              "referencedDeclaration": 15018,
                               "src": "5316:10:80",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_function_internal_view$__$returns$_t_address_$",
@@ -18358,7 +18358,7 @@
                                 "name": "_msgSender",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 14994,
+                                "referencedDeclaration": 15018,
                                 "src": "5355:10:80",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_function_internal_view$__$returns$_t_address_$",
@@ -18527,7 +18527,7 @@
                       "name": "_msgSender",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 14994,
+                      "referencedDeclaration": 15018,
                       "src": "5478:10:80",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_view$__$returns$_t_address_$",
@@ -20153,7 +20153,7 @@
                       "name": "_msgSender",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 14994,
+                      "referencedDeclaration": 15018,
                       "src": "7652:10:80",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_view$__$returns$_t_address_$",
@@ -21344,7 +21344,7 @@
                       "name": "_msgSender",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 14994,
+                      "referencedDeclaration": 15018,
                       "src": "8671:10:80",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_view$__$returns$_t_address_$",
@@ -22549,7 +22549,7 @@
                       "name": "_msgSender",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 14994,
+                      "referencedDeclaration": 15018,
                       "src": "9495:10:80",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_view$__$returns$_t_address_$",
@@ -23771,7 +23771,7 @@
                       "name": "_msgSender",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 14994,
+                      "referencedDeclaration": 15018,
                       "src": "10420:10:80",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_view$__$returns$_t_address_$",
@@ -25146,7 +25146,7 @@
                       "lValueRequested": false,
                       "memberName": "isContract",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 14622,
+                      "referencedDeclaration": 14646,
                       "src": "12389:13:80",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_view$_t_address_$returns$_t_bool_$bound_to$_t_address_$",
@@ -25965,7 +25965,7 @@
                       "lValueRequested": false,
                       "memberName": "isContract",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 14622,
+                      "referencedDeclaration": 14646,
                       "src": "13184:13:80",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_view$_t_address_$returns$_t_bool_$bound_to$_t_address_$",
@@ -27087,7 +27087,7 @@
   },
   "networks": {},
   "schemaVersion": "3.2.3",
-  "updatedAt": "2021-03-26T11:30:52.548Z",
+  "updatedAt": "2021-03-26T13:45:12.888Z",
   "devdoc": {
     "details": "Implementation of the basic standard multi-token. See https://eips.ethereum.org/EIPS/eip-1155 Originally based on code by Enjin: https://github.com/enjin/erc-1155 _Available since v3.1._",
     "kind": "dev",

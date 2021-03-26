@@ -340,13 +340,13 @@
     "absolutePath": "/C/Users/RogerGangaSundararaj/Documents/GitHub/openzeppelin-contracts/contracts/token/ERC20/extensions/ERC20Snapshot.sol",
     "exportedSymbols": {
       "Arrays": [
-        14983
+        15007
       ],
       "Context": [
-        15006
+        15030
       ],
       "Counters": [
-        15067
+        15091
       ],
       "ERC20": [
         10169
@@ -361,7 +361,7 @@
         10755
       ],
       "Math": [
-        16567
+        16591
       ]
     },
     "id": 10731,
@@ -396,7 +396,7 @@
         "id": 10414,
         "nodeType": "ImportDirective",
         "scope": 10731,
-        "sourceUnit": 14984,
+        "sourceUnit": 15008,
         "src": "86:35:94",
         "symbolAliases": [],
         "unitAlias": ""
@@ -407,7 +407,7 @@
         "id": 10415,
         "nodeType": "ImportDirective",
         "scope": 10731,
-        "sourceUnit": 15068,
+        "sourceUnit": 15092,
         "src": "123:37:94",
         "symbolAliases": [],
         "unitAlias": ""
@@ -432,7 +432,7 @@
           10169,
           10247,
           10755,
-          15006
+          15030
         ],
         "contractKind": "contract",
         "documentation": {
@@ -448,7 +448,7 @@
           10169,
           10755,
           10247,
-          15006
+          15030
         ],
         "name": "ERC20Snapshot",
         "nodeType": "ContractDefinition",
@@ -459,7 +459,7 @@
               "id": 10419,
               "name": "Arrays",
               "nodeType": "IdentifierPath",
-              "referencedDeclaration": 14983,
+              "referencedDeclaration": 15007,
               "src": "2082:6:94"
             },
             "nodeType": "UsingForDirective",
@@ -490,7 +490,7 @@
               "id": 10423,
               "name": "Counters",
               "nodeType": "IdentifierPath",
-              "referencedDeclaration": 15067,
+              "referencedDeclaration": 15091,
               "src": "2115:8:94"
             },
             "nodeType": "UsingForDirective",
@@ -502,13 +502,13 @@
                 "id": 10424,
                 "name": "Counters.Counter",
                 "nodeType": "IdentifierPath",
-                "referencedDeclaration": 15012,
+                "referencedDeclaration": 15036,
                 "src": "2128:16:94"
               },
-              "referencedDeclaration": 15012,
+              "referencedDeclaration": 15036,
               "src": "2128:16:94",
               "typeDescriptions": {
-                "typeIdentifier": "t_struct$_Counter_$15012_storage_ptr",
+                "typeIdentifier": "t_struct$_Counter_$15036_storage_ptr",
                 "typeString": "struct Counters.Counter"
               }
             }
@@ -690,7 +690,7 @@
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_struct$_Counter_$15012_storage",
+              "typeIdentifier": "t_struct$_Counter_$15036_storage",
               "typeString": "struct Counters.Counter"
             },
             "typeName": {
@@ -700,13 +700,13 @@
                 "id": 10442,
                 "name": "Counters.Counter",
                 "nodeType": "IdentifierPath",
-                "referencedDeclaration": 15012,
+                "referencedDeclaration": 15036,
                 "src": "2657:16:94"
               },
-              "referencedDeclaration": 15012,
+              "referencedDeclaration": 15036,
               "src": "2657:16:94",
               "typeDescriptions": {
-                "typeIdentifier": "t_struct$_Counter_$15012_storage_ptr",
+                "typeIdentifier": "t_struct$_Counter_$15036_storage_ptr",
                 "typeString": "struct Counters.Counter"
               }
             },
@@ -778,7 +778,7 @@
                         "referencedDeclaration": 10444,
                         "src": "4034:18:94",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_Counter_$15012_storage",
+                          "typeIdentifier": "t_struct$_Counter_$15036_storage",
                           "typeString": "struct Counters.Counter storage ref"
                         }
                       },
@@ -789,10 +789,10 @@
                       "lValueRequested": false,
                       "memberName": "increment",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 15038,
+                      "referencedDeclaration": 15062,
                       "src": "4034:28:94",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_function_internal_nonpayable$_t_struct$_Counter_$15012_storage_ptr_$returns$__$bound_to$_t_struct$_Counter_$15012_storage_ptr_$",
+                        "typeIdentifier": "t_function_internal_nonpayable$_t_struct$_Counter_$15036_storage_ptr_$returns$__$bound_to$_t_struct$_Counter_$15036_storage_ptr_$",
                         "typeString": "function (struct Counters.Counter storage pointer)"
                       }
                     },
@@ -860,7 +860,7 @@
                         "referencedDeclaration": 10444,
                         "src": "4097:18:94",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_Counter_$15012_storage",
+                          "typeIdentifier": "t_struct$_Counter_$15036_storage",
                           "typeString": "struct Counters.Counter storage ref"
                         }
                       },
@@ -871,10 +871,10 @@
                       "lValueRequested": false,
                       "memberName": "current",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 15024,
+                      "referencedDeclaration": 15048,
                       "src": "4097:26:94",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_function_internal_view$_t_struct$_Counter_$15012_storage_ptr_$returns$_t_uint256_$bound_to$_t_struct$_Counter_$15012_storage_ptr_$",
+                        "typeIdentifier": "t_function_internal_view$_t_struct$_Counter_$15036_storage_ptr_$returns$_t_uint256_$bound_to$_t_struct$_Counter_$15036_storage_ptr_$",
                         "typeString": "function (struct Counters.Counter storage pointer) view returns (uint256)"
                       }
                     },
@@ -2552,7 +2552,7 @@
                               "referencedDeclaration": 10444,
                               "src": "5944:18:94",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_struct$_Counter_$15012_storage",
+                                "typeIdentifier": "t_struct$_Counter_$15036_storage",
                                 "typeString": "struct Counters.Counter storage ref"
                               }
                             },
@@ -2563,10 +2563,10 @@
                             "lValueRequested": false,
                             "memberName": "current",
                             "nodeType": "MemberAccess",
-                            "referencedDeclaration": 15024,
+                            "referencedDeclaration": 15048,
                             "src": "5944:26:94",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_function_internal_view$_t_struct$_Counter_$15012_storage_ptr_$returns$_t_uint256_$bound_to$_t_struct$_Counter_$15012_storage_ptr_$",
+                              "typeIdentifier": "t_function_internal_view$_t_struct$_Counter_$15036_storage_ptr_$returns$_t_uint256_$bound_to$_t_struct$_Counter_$15036_storage_ptr_$",
                               "typeString": "function (struct Counters.Counter storage pointer) view returns (uint256)"
                             }
                           },
@@ -2741,7 +2741,7 @@
                       "lValueRequested": false,
                       "memberName": "findUpperBound",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 14982,
+                      "referencedDeclaration": 15006,
                       "src": "7161:28:94",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_view$_t_array$_t_uint256_$dyn_storage_ptr_$_t_uint256_$returns$_t_uint256_$bound_to$_t_array$_t_uint256_$dyn_storage_ptr_$",
@@ -3499,7 +3499,7 @@
                         "referencedDeclaration": 10444,
                         "src": "7774:18:94",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_Counter_$15012_storage",
+                          "typeIdentifier": "t_struct$_Counter_$15036_storage",
                           "typeString": "struct Counters.Counter storage ref"
                         }
                       },
@@ -3510,10 +3510,10 @@
                       "lValueRequested": false,
                       "memberName": "current",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 15024,
+                      "referencedDeclaration": 15048,
                       "src": "7774:26:94",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_function_internal_view$_t_struct$_Counter_$15012_storage_ptr_$returns$_t_uint256_$bound_to$_t_struct$_Counter_$15012_storage_ptr_$",
+                        "typeIdentifier": "t_function_internal_view$_t_struct$_Counter_$15036_storage_ptr_$returns$_t_uint256_$bound_to$_t_struct$_Counter_$15036_storage_ptr_$",
                         "typeString": "function (struct Counters.Counter storage pointer) view returns (uint256)"
                       }
                     },
@@ -4188,13 +4188,13 @@
     "absolutePath": "/C/Users/RogerGangaSundararaj/Documents/GitHub/openzeppelin-contracts/contracts/token/ERC20/extensions/ERC20Snapshot.sol",
     "exportedSymbols": {
       "Arrays": [
-        14983
+        15007
       ],
       "Context": [
-        15006
+        15030
       ],
       "Counters": [
-        15067
+        15091
       ],
       "ERC20": [
         10169
@@ -4209,7 +4209,7 @@
         10755
       ],
       "Math": [
-        16567
+        16591
       ]
     },
     "id": 10731,
@@ -4244,7 +4244,7 @@
         "id": 10414,
         "nodeType": "ImportDirective",
         "scope": 10731,
-        "sourceUnit": 14984,
+        "sourceUnit": 15008,
         "src": "86:35:94",
         "symbolAliases": [],
         "unitAlias": ""
@@ -4255,7 +4255,7 @@
         "id": 10415,
         "nodeType": "ImportDirective",
         "scope": 10731,
-        "sourceUnit": 15068,
+        "sourceUnit": 15092,
         "src": "123:37:94",
         "symbolAliases": [],
         "unitAlias": ""
@@ -4280,7 +4280,7 @@
           10169,
           10247,
           10755,
-          15006
+          15030
         ],
         "contractKind": "contract",
         "documentation": {
@@ -4296,7 +4296,7 @@
           10169,
           10755,
           10247,
-          15006
+          15030
         ],
         "name": "ERC20Snapshot",
         "nodeType": "ContractDefinition",
@@ -4307,7 +4307,7 @@
               "id": 10419,
               "name": "Arrays",
               "nodeType": "IdentifierPath",
-              "referencedDeclaration": 14983,
+              "referencedDeclaration": 15007,
               "src": "2082:6:94"
             },
             "nodeType": "UsingForDirective",
@@ -4338,7 +4338,7 @@
               "id": 10423,
               "name": "Counters",
               "nodeType": "IdentifierPath",
-              "referencedDeclaration": 15067,
+              "referencedDeclaration": 15091,
               "src": "2115:8:94"
             },
             "nodeType": "UsingForDirective",
@@ -4350,13 +4350,13 @@
                 "id": 10424,
                 "name": "Counters.Counter",
                 "nodeType": "IdentifierPath",
-                "referencedDeclaration": 15012,
+                "referencedDeclaration": 15036,
                 "src": "2128:16:94"
               },
-              "referencedDeclaration": 15012,
+              "referencedDeclaration": 15036,
               "src": "2128:16:94",
               "typeDescriptions": {
-                "typeIdentifier": "t_struct$_Counter_$15012_storage_ptr",
+                "typeIdentifier": "t_struct$_Counter_$15036_storage_ptr",
                 "typeString": "struct Counters.Counter"
               }
             }
@@ -4538,7 +4538,7 @@
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_struct$_Counter_$15012_storage",
+              "typeIdentifier": "t_struct$_Counter_$15036_storage",
               "typeString": "struct Counters.Counter"
             },
             "typeName": {
@@ -4548,13 +4548,13 @@
                 "id": 10442,
                 "name": "Counters.Counter",
                 "nodeType": "IdentifierPath",
-                "referencedDeclaration": 15012,
+                "referencedDeclaration": 15036,
                 "src": "2657:16:94"
               },
-              "referencedDeclaration": 15012,
+              "referencedDeclaration": 15036,
               "src": "2657:16:94",
               "typeDescriptions": {
-                "typeIdentifier": "t_struct$_Counter_$15012_storage_ptr",
+                "typeIdentifier": "t_struct$_Counter_$15036_storage_ptr",
                 "typeString": "struct Counters.Counter"
               }
             },
@@ -4626,7 +4626,7 @@
                         "referencedDeclaration": 10444,
                         "src": "4034:18:94",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_Counter_$15012_storage",
+                          "typeIdentifier": "t_struct$_Counter_$15036_storage",
                           "typeString": "struct Counters.Counter storage ref"
                         }
                       },
@@ -4637,10 +4637,10 @@
                       "lValueRequested": false,
                       "memberName": "increment",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 15038,
+                      "referencedDeclaration": 15062,
                       "src": "4034:28:94",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_function_internal_nonpayable$_t_struct$_Counter_$15012_storage_ptr_$returns$__$bound_to$_t_struct$_Counter_$15012_storage_ptr_$",
+                        "typeIdentifier": "t_function_internal_nonpayable$_t_struct$_Counter_$15036_storage_ptr_$returns$__$bound_to$_t_struct$_Counter_$15036_storage_ptr_$",
                         "typeString": "function (struct Counters.Counter storage pointer)"
                       }
                     },
@@ -4708,7 +4708,7 @@
                         "referencedDeclaration": 10444,
                         "src": "4097:18:94",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_Counter_$15012_storage",
+                          "typeIdentifier": "t_struct$_Counter_$15036_storage",
                           "typeString": "struct Counters.Counter storage ref"
                         }
                       },
@@ -4719,10 +4719,10 @@
                       "lValueRequested": false,
                       "memberName": "current",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 15024,
+                      "referencedDeclaration": 15048,
                       "src": "4097:26:94",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_function_internal_view$_t_struct$_Counter_$15012_storage_ptr_$returns$_t_uint256_$bound_to$_t_struct$_Counter_$15012_storage_ptr_$",
+                        "typeIdentifier": "t_function_internal_view$_t_struct$_Counter_$15036_storage_ptr_$returns$_t_uint256_$bound_to$_t_struct$_Counter_$15036_storage_ptr_$",
                         "typeString": "function (struct Counters.Counter storage pointer) view returns (uint256)"
                       }
                     },
@@ -6400,7 +6400,7 @@
                               "referencedDeclaration": 10444,
                               "src": "5944:18:94",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_struct$_Counter_$15012_storage",
+                                "typeIdentifier": "t_struct$_Counter_$15036_storage",
                                 "typeString": "struct Counters.Counter storage ref"
                               }
                             },
@@ -6411,10 +6411,10 @@
                             "lValueRequested": false,
                             "memberName": "current",
                             "nodeType": "MemberAccess",
-                            "referencedDeclaration": 15024,
+                            "referencedDeclaration": 15048,
                             "src": "5944:26:94",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_function_internal_view$_t_struct$_Counter_$15012_storage_ptr_$returns$_t_uint256_$bound_to$_t_struct$_Counter_$15012_storage_ptr_$",
+                              "typeIdentifier": "t_function_internal_view$_t_struct$_Counter_$15036_storage_ptr_$returns$_t_uint256_$bound_to$_t_struct$_Counter_$15036_storage_ptr_$",
                               "typeString": "function (struct Counters.Counter storage pointer) view returns (uint256)"
                             }
                           },
@@ -6589,7 +6589,7 @@
                       "lValueRequested": false,
                       "memberName": "findUpperBound",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 14982,
+                      "referencedDeclaration": 15006,
                       "src": "7161:28:94",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_view$_t_array$_t_uint256_$dyn_storage_ptr_$_t_uint256_$returns$_t_uint256_$bound_to$_t_array$_t_uint256_$dyn_storage_ptr_$",
@@ -7347,7 +7347,7 @@
                         "referencedDeclaration": 10444,
                         "src": "7774:18:94",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_Counter_$15012_storage",
+                          "typeIdentifier": "t_struct$_Counter_$15036_storage",
                           "typeString": "struct Counters.Counter storage ref"
                         }
                       },
@@ -7358,10 +7358,10 @@
                       "lValueRequested": false,
                       "memberName": "current",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 15024,
+                      "referencedDeclaration": 15048,
                       "src": "7774:26:94",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_function_internal_view$_t_struct$_Counter_$15012_storage_ptr_$returns$_t_uint256_$bound_to$_t_struct$_Counter_$15012_storage_ptr_$",
+                        "typeIdentifier": "t_function_internal_view$_t_struct$_Counter_$15036_storage_ptr_$returns$_t_uint256_$bound_to$_t_struct$_Counter_$15036_storage_ptr_$",
                         "typeString": "function (struct Counters.Counter storage pointer) view returns (uint256)"
                       }
                     },
@@ -8038,7 +8038,7 @@
   },
   "networks": {},
   "schemaVersion": "3.2.3",
-  "updatedAt": "2021-03-26T11:30:52.685Z",
+  "updatedAt": "2021-03-26T13:45:12.964Z",
   "devdoc": {
     "details": "This contract extends an ERC20 token with a snapshot mechanism. When a snapshot is created, the balances and total supply at the time are recorded for later access. This can be used to safely create mechanisms based on token balances such as trustless dividends or weighted voting. In naive implementations it's possible to perform a \"double spend\" attack by reusing the same balance from different accounts. By using snapshots to calculate dividends or voting power, those attacks no longer apply. It can also be used to create an efficient ERC20 forking mechanism. Snapshots are created by the internal {_snapshot} function, which will emit the {Snapshot} event and return a snapshot id. To get the total supply at the time of a snapshot, call the function {totalSupplyAt} with the snapshot id. To get the balance of an account at the time of a snapshot, call the {balanceOfAt} function with the snapshot id and the account address. ==== Gas Costs Snapshots are efficient. Snapshot creation is _O(1)_. Retrieval of balances or total supply from a snapshot is _O(log n)_ in the number of snapshots that have been created, although _n_ for a specific account will generally be much smaller since identical balances in subsequent snapshots are stored as a single entry. There is a constant overhead for normal ERC20 transfers due to the additional snapshot bookkeeping. This overhead is only significant for the first transfer that immediately follows a snapshot for a particular account. Subsequent transfers will have normal cost until the next snapshot, and so on.",
     "events": {

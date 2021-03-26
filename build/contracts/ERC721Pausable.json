@@ -383,13 +383,13 @@
     "absolutePath": "/C/Users/RogerGangaSundararaj/Documents/GitHub/openzeppelin-contracts/contracts/token/ERC721/extensions/ERC721Pausable.sol",
     "exportedSymbols": {
       "Address": [
-        14898
+        14922
       ],
       "Context": [
-        15006
+        15030
       ],
       "ERC165": [
-        16064
+        16088
       ],
       "ERC721": [
         12282
@@ -398,7 +398,7 @@
         12821
       ],
       "IERC165": [
-        16390
+        16414
       ],
       "IERC721": [
         12398
@@ -413,7 +413,7 @@
         7948
       ],
       "Strings": [
-        15381
+        15405
       ]
     },
     "id": 12822,
@@ -486,9 +486,9 @@
           12282,
           12398,
           13007,
-          15006,
-          16064,
-          16390
+          15030,
+          16088,
+          16414
         ],
         "contractKind": "contract",
         "documentation": {
@@ -505,9 +505,9 @@
           12282,
           13007,
           12398,
-          16064,
-          16390,
-          15006
+          16088,
+          16414,
+          15030
         ],
         "name": "ERC721Pausable",
         "nodeType": "ContractDefinition",
@@ -860,13 +860,13 @@
     "absolutePath": "/C/Users/RogerGangaSundararaj/Documents/GitHub/openzeppelin-contracts/contracts/token/ERC721/extensions/ERC721Pausable.sol",
     "exportedSymbols": {
       "Address": [
-        14898
+        14922
       ],
       "Context": [
-        15006
+        15030
       ],
       "ERC165": [
-        16064
+        16088
       ],
       "ERC721": [
         12282
@@ -875,7 +875,7 @@
         12821
       ],
       "IERC165": [
-        16390
+        16414
       ],
       "IERC721": [
         12398
@@ -890,7 +890,7 @@
         7948
       ],
       "Strings": [
-        15381
+        15405
       ]
     },
     "id": 12822,
@@ -963,9 +963,9 @@
           12282,
           12398,
           13007,
-          15006,
-          16064,
-          16390
+          15030,
+          16088,
+          16414
         ],
         "contractKind": "contract",
         "documentation": {
@@ -982,9 +982,9 @@
           12282,
           13007,
           12398,
-          16064,
-          16390,
-          15006
+          16088,
+          16414,
+          15030
         ],
         "name": "ERC721Pausable",
         "nodeType": "ContractDefinition",
@@ -1339,7 +1339,7 @@
   },
   "networks": {},
   "schemaVersion": "3.2.3",
-  "updatedAt": "2021-03-26T11:30:52.895Z",
+  "updatedAt": "2021-03-26T13:45:13.032Z",
   "devdoc": {
     "details": "ERC721 token with pausable token transfers, minting and burning. Useful for scenarios such as preventing trades until the end of an evaluation period, or having an emergency switch for freezing all token transfers in the event of a large bug.",
     "kind": "dev",

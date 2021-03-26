@@ -365,10 +365,10 @@
     "absolutePath": "/C/Users/RogerGangaSundararaj/Documents/GitHub/openzeppelin-contracts/contracts/token/ERC1155/extensions/ERC1155Pausable.sol",
     "exportedSymbols": {
       "Address": [
-        14898
+        14922
       ],
       "Context": [
-        15006
+        15030
       ],
       "ERC1155": [
         9084
@@ -377,7 +377,7 @@
         9364
       ],
       "ERC165": [
-        16064
+        16088
       ],
       "IERC1155": [
         9206
@@ -389,7 +389,7 @@
         9247
       ],
       "IERC165": [
-        16390
+        16414
       ],
       "Pausable": [
         7948
@@ -465,9 +465,9 @@
           9084,
           9206,
           9379,
-          15006,
-          16064,
-          16390
+          15030,
+          16088,
+          16414
         ],
         "contractKind": "contract",
         "documentation": {
@@ -484,9 +484,9 @@
           9084,
           9379,
           9206,
-          16064,
-          16390,
-          15006
+          16088,
+          16414,
+          15030
         ],
         "name": "ERC1155Pausable",
         "nodeType": "ContractDefinition",
@@ -984,10 +984,10 @@
     "absolutePath": "/C/Users/RogerGangaSundararaj/Documents/GitHub/openzeppelin-contracts/contracts/token/ERC1155/extensions/ERC1155Pausable.sol",
     "exportedSymbols": {
       "Address": [
-        14898
+        14922
       ],
       "Context": [
-        15006
+        15030
       ],
       "ERC1155": [
         9084
@@ -996,7 +996,7 @@
         9364
       ],
       "ERC165": [
-        16064
+        16088
       ],
       "IERC1155": [
         9206
@@ -1008,7 +1008,7 @@
         9247
       ],
       "IERC165": [
-        16390
+        16414
       ],
       "Pausable": [
         7948
@@ -1084,9 +1084,9 @@
           9084,
           9206,
           9379,
-          15006,
-          16064,
-          16390
+          15030,
+          16088,
+          16414
         ],
         "contractKind": "contract",
         "documentation": {
@@ -1103,9 +1103,9 @@
           9084,
           9379,
           9206,
-          16064,
-          16390,
-          15006
+          16088,
+          16414,
+          15030
         ],
         "name": "ERC1155Pausable",
         "nodeType": "ContractDefinition",
@@ -1605,7 +1605,7 @@
   },
   "networks": {},
   "schemaVersion": "3.2.3",
-  "updatedAt": "2021-03-26T11:30:52.612Z",
+  "updatedAt": "2021-03-26T13:45:12.924Z",
   "devdoc": {
     "details": "ERC1155 token with pausable token transfers, minting and burning. Useful for scenarios such as preventing trades until the end of an evaluation period, or having an emergency switch for freezing all token transfers in the event of a large bug. _Available since v3.1._",
     "kind": "dev",

@@ -53,7 +53,7 @@
     "absolutePath": "/C/Users/RogerGangaSundararaj/Documents/GitHub/openzeppelin-contracts/contracts/security/Pausable.sol",
     "exportedSymbols": {
       "Context": [
-        15006
+        15030
       ],
       "Pausable": [
         7948
@@ -80,7 +80,7 @@
         "id": 7859,
         "nodeType": "ImportDirective",
         "scope": 7949,
-        "sourceUnit": 15007,
+        "sourceUnit": 15031,
         "src": "62:30:77",
         "symbolAliases": [],
         "unitAlias": ""
@@ -93,7 +93,7 @@
               "id": 7861,
               "name": "Context",
               "nodeType": "IdentifierPath",
-              "referencedDeclaration": 15006,
+              "referencedDeclaration": 15030,
               "src": "575:7:77"
             },
             "id": 7862,
@@ -102,7 +102,7 @@
           }
         ],
         "contractDependencies": [
-          15006
+          15030
         ],
         "contractKind": "contract",
         "documentation": {
@@ -115,7 +115,7 @@
         "id": 7948,
         "linearizedBaseContracts": [
           7948,
-          15006
+          15030
         ],
         "name": "Pausable",
         "nodeType": "ContractDefinition",
@@ -742,7 +742,7 @@
                           "name": "_msgSender",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 14994,
+                          "referencedDeclaration": 15018,
                           "src": "1977:10:77",
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_internal_view$__$returns$_t_address_$",
@@ -911,7 +911,7 @@
                           "name": "_msgSender",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 14994,
+                          "referencedDeclaration": 15018,
                           "src": "2238:10:77",
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_internal_view$__$returns$_t_address_$",
@@ -1027,7 +1027,7 @@
     "absolutePath": "/C/Users/RogerGangaSundararaj/Documents/GitHub/openzeppelin-contracts/contracts/security/Pausable.sol",
     "exportedSymbols": {
       "Context": [
-        15006
+        15030
       ],
       "Pausable": [
         7948
@@ -1054,7 +1054,7 @@
         "id": 7859,
         "nodeType": "ImportDirective",
         "scope": 7949,
-        "sourceUnit": 15007,
+        "sourceUnit": 15031,
         "src": "62:30:77",
         "symbolAliases": [],
         "unitAlias": ""
@@ -1067,7 +1067,7 @@
               "id": 7861,
               "name": "Context",
               "nodeType": "IdentifierPath",
-              "referencedDeclaration": 15006,
+              "referencedDeclaration": 15030,
               "src": "575:7:77"
             },
             "id": 7862,
@@ -1076,7 +1076,7 @@
           }
         ],
         "contractDependencies": [
-          15006
+          15030
         ],
         "contractKind": "contract",
         "documentation": {
@@ -1089,7 +1089,7 @@
         "id": 7948,
         "linearizedBaseContracts": [
           7948,
-          15006
+          15030
         ],
         "name": "Pausable",
         "nodeType": "ContractDefinition",
@@ -1716,7 +1716,7 @@
                           "name": "_msgSender",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 14994,
+                          "referencedDeclaration": 15018,
                           "src": "1977:10:77",
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_internal_view$__$returns$_t_address_$",
@@ -1885,7 +1885,7 @@
                           "name": "_msgSender",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 14994,
+                          "referencedDeclaration": 15018,
                           "src": "2238:10:77",
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_internal_view$__$returns$_t_address_$",
@@ -2003,7 +2003,7 @@
   },
   "networks": {},
   "schemaVersion": "3.2.3",
-  "updatedAt": "2021-03-26T11:30:52.515Z",
+  "updatedAt": "2021-03-26T13:45:12.871Z",
   "devdoc": {
     "details": "Contract module which allows children to implement an emergency stop mechanism that can be triggered by an authorized account. This module is used through inheritance. It will make available the modifiers `whenNotPaused` and `whenPaused`, which can be applied to the functions of your contract. Note that they will not be pausable by simply including this module, only once the modifiers are put in place.",
     "events": {

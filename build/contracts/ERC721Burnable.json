@@ -357,13 +357,13 @@
     "absolutePath": "/C/Users/RogerGangaSundararaj/Documents/GitHub/openzeppelin-contracts/contracts/token/ERC721/extensions/ERC721Burnable.sol",
     "exportedSymbols": {
       "Address": [
-        14898
+        14922
       ],
       "Context": [
-        15006
+        15030
       ],
       "ERC165": [
-        16064
+        16088
       ],
       "ERC721": [
         12282
@@ -372,7 +372,7 @@
         12446
       ],
       "IERC165": [
-        16390
+        16414
       ],
       "IERC721": [
         12398
@@ -384,7 +384,7 @@
         12416
       ],
       "Strings": [
-        15381
+        15405
       ]
     },
     "id": 12447,
@@ -419,7 +419,7 @@
         "id": 12420,
         "nodeType": "ImportDirective",
         "scope": 12447,
-        "sourceUnit": 15007,
+        "sourceUnit": 15031,
         "src": "87:36:105",
         "symbolAliases": [],
         "unitAlias": ""
@@ -432,7 +432,7 @@
               "id": 12422,
               "name": "Context",
               "nodeType": "IdentifierPath",
-              "referencedDeclaration": 15006,
+              "referencedDeclaration": 15030,
               "src": "273:7:105"
             },
             "id": 12423,
@@ -456,9 +456,9 @@
           12282,
           12398,
           13007,
-          15006,
-          16064,
-          16390
+          15030,
+          16088,
+          16414
         ],
         "contractKind": "contract",
         "documentation": {
@@ -474,9 +474,9 @@
           12282,
           13007,
           12398,
-          16064,
-          16390,
-          15006
+          16088,
+          16414,
+          15030
         ],
         "name": "ERC721Burnable",
         "nodeType": "ContractDefinition",
@@ -500,7 +500,7 @@
                               "name": "_msgSender",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 14994,
+                              "referencedDeclaration": 15018,
                               "src": "607:10:105",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_function_internal_view$__$returns$_t_address_$",
@@ -757,13 +757,13 @@
     "absolutePath": "/C/Users/RogerGangaSundararaj/Documents/GitHub/openzeppelin-contracts/contracts/token/ERC721/extensions/ERC721Burnable.sol",
     "exportedSymbols": {
       "Address": [
-        14898
+        14922
       ],
       "Context": [
-        15006
+        15030
       ],
       "ERC165": [
-        16064
+        16088
       ],
       "ERC721": [
         12282
@@ -772,7 +772,7 @@
         12446
       ],
       "IERC165": [
-        16390
+        16414
       ],
       "IERC721": [
         12398
@@ -784,7 +784,7 @@
         12416
       ],
       "Strings": [
-        15381
+        15405
       ]
     },
     "id": 12447,
@@ -819,7 +819,7 @@
         "id": 12420,
         "nodeType": "ImportDirective",
         "scope": 12447,
-        "sourceUnit": 15007,
+        "sourceUnit": 15031,
         "src": "87:36:105",
         "symbolAliases": [],
         "unitAlias": ""
@@ -832,7 +832,7 @@
               "id": 12422,
               "name": "Context",
               "nodeType": "IdentifierPath",
-              "referencedDeclaration": 15006,
+              "referencedDeclaration": 15030,
               "src": "273:7:105"
             },
             "id": 12423,
@@ -856,9 +856,9 @@
           12282,
           12398,
           13007,
-          15006,
-          16064,
-          16390
+          15030,
+          16088,
+          16414
         ],
         "contractKind": "contract",
         "documentation": {
@@ -874,9 +874,9 @@
           12282,
           13007,
           12398,
-          16064,
-          16390,
-          15006
+          16088,
+          16414,
+          15030
         ],
         "name": "ERC721Burnable",
         "nodeType": "ContractDefinition",
@@ -900,7 +900,7 @@
                               "name": "_msgSender",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 14994,
+                              "referencedDeclaration": 15018,
                               "src": "607:10:105",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_function_internal_view$__$returns$_t_address_$",
@@ -1159,7 +1159,7 @@
   },
   "networks": {},
   "schemaVersion": "3.2.3",
-  "updatedAt": "2021-03-26T11:30:52.836Z",
+  "updatedAt": "2021-03-26T13:45:13.020Z",
   "devdoc": {
     "details": "ERC721 Token that can be irreversibly burned (destroyed).",
     "kind": "dev",

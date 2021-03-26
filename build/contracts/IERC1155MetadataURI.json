@@ -332,7 +332,7 @@
         9379
       ],
       "IERC165": [
-        16390
+        16414
       ]
     },
     "id": 9380,
@@ -379,7 +379,7 @@
         ],
         "contractDependencies": [
           9206,
-          16390
+          16414
         ],
         "contractKind": "interface",
         "documentation": {
@@ -393,7 +393,7 @@
         "linearizedBaseContracts": [
           9379,
           9206,
-          16390
+          16414
         ],
         "name": "IERC1155MetadataURI",
         "nodeType": "ContractDefinition",
@@ -501,7 +501,7 @@
         9379
       ],
       "IERC165": [
-        16390
+        16414
       ]
     },
     "id": 9380,
@@ -548,7 +548,7 @@
         ],
         "contractDependencies": [
           9206,
-          16390
+          16414
         ],
         "contractKind": "interface",
         "documentation": {
@@ -562,7 +562,7 @@
         "linearizedBaseContracts": [
           9379,
           9206,
-          16390
+          16414
         ],
         "name": "IERC1155MetadataURI",
         "nodeType": "ContractDefinition",
@@ -666,7 +666,7 @@
   },
   "networks": {},
   "schemaVersion": "3.2.3",
-  "updatedAt": "2021-03-26T11:30:52.617Z",
+  "updatedAt": "2021-03-26T13:45:12.928Z",
   "devdoc": {
     "details": "Interface of the optional ERC1155MetadataExtension interface, as defined in the https://eips.ethereum.org/EIPS/eip-1155#metadata-extensions[EIP]. _Available since v3.1._",
     "kind": "dev",

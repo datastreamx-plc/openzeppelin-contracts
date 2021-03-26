@@ -297,7 +297,7 @@
     "absolutePath": "/C/Users/RogerGangaSundararaj/Documents/GitHub/openzeppelin-contracts/contracts/token/ERC20/extensions/ERC20Capped.sol",
     "exportedSymbols": {
       "Context": [
-        15006
+        15030
       ],
       "ERC20": [
         10169
@@ -358,7 +358,7 @@
           10169,
           10247,
           10755,
-          15006
+          15030
         ],
         "contractKind": "contract",
         "documentation": {
@@ -374,7 +374,7 @@
           10169,
           10755,
           10247,
-          15006
+          15030
         ],
         "name": "ERC20Capped",
         "nodeType": "ContractDefinition",
@@ -1090,7 +1090,7 @@
     "absolutePath": "/C/Users/RogerGangaSundararaj/Documents/GitHub/openzeppelin-contracts/contracts/token/ERC20/extensions/ERC20Capped.sol",
     "exportedSymbols": {
       "Context": [
-        15006
+        15030
       ],
       "ERC20": [
         10169
@@ -1151,7 +1151,7 @@
           10169,
           10247,
           10755,
-          15006
+          15030
         ],
         "contractKind": "contract",
         "documentation": {
@@ -1167,7 +1167,7 @@
           10169,
           10755,
           10247,
-          15006
+          15030
         ],
         "name": "ERC20Capped",
         "nodeType": "ContractDefinition",
@@ -1885,7 +1885,7 @@
   },
   "networks": {},
   "schemaVersion": "3.2.3",
-  "updatedAt": "2021-03-26T11:30:52.672Z",
+  "updatedAt": "2021-03-26T13:45:12.956Z",
   "devdoc": {
     "details": "Extension of {ERC20} that adds a cap to the supply of tokens.",
     "kind": "dev",

@@ -13,7 +13,7 @@
     "absolutePath": "/C/Users/RogerGangaSundararaj/Documents/GitHub/openzeppelin-contracts/contracts/token/ERC20/utils/SafeERC20.sol",
     "exportedSymbols": {
       "Address": [
-        14898
+        14922
       ],
       "IERC20": [
         10247
@@ -54,7 +54,7 @@
         "id": 11129,
         "nodeType": "ImportDirective",
         "scope": 11350,
-        "sourceUnit": 14899,
+        "sourceUnit": 14923,
         "src": "87:36:100",
         "symbolAliases": [],
         "unitAlias": ""
@@ -84,7 +84,7 @@
               "id": 11131,
               "name": "Address",
               "nodeType": "IdentifierPath",
-              "referencedDeclaration": 14898,
+              "referencedDeclaration": 14922,
               "src": "625:7:100"
             },
             "nodeType": "UsingForDirective",
@@ -2645,7 +2645,7 @@
                       "lValueRequested": false,
                       "memberName": "functionCall",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 14693,
+                      "referencedDeclaration": 14717,
                       "src": "3537:27:100",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_address_$_t_bytes_memory_ptr_$_t_string_memory_ptr_$returns$_t_bytes_memory_ptr_$bound_to$_t_address_$",
@@ -3011,7 +3011,7 @@
     "absolutePath": "/C/Users/RogerGangaSundararaj/Documents/GitHub/openzeppelin-contracts/contracts/token/ERC20/utils/SafeERC20.sol",
     "exportedSymbols": {
       "Address": [
-        14898
+        14922
       ],
       "IERC20": [
         10247
@@ -3052,7 +3052,7 @@
         "id": 11129,
         "nodeType": "ImportDirective",
         "scope": 11350,
-        "sourceUnit": 14899,
+        "sourceUnit": 14923,
         "src": "87:36:100",
         "symbolAliases": [],
         "unitAlias": ""
@@ -3082,7 +3082,7 @@
               "id": 11131,
               "name": "Address",
               "nodeType": "IdentifierPath",
-              "referencedDeclaration": 14898,
+              "referencedDeclaration": 14922,
               "src": "625:7:100"
             },
             "nodeType": "UsingForDirective",
@@ -5643,7 +5643,7 @@
                       "lValueRequested": false,
                       "memberName": "functionCall",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 14693,
+                      "referencedDeclaration": 14717,
                       "src": "3537:27:100",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_address_$_t_bytes_memory_ptr_$_t_string_memory_ptr_$returns$_t_bytes_memory_ptr_$bound_to$_t_address_$",
@@ -6011,7 +6011,7 @@
   },
   "networks": {},
   "schemaVersion": "3.2.3",
-  "updatedAt": "2021-03-26T11:30:52.716Z",
+  "updatedAt": "2021-03-26T13:45:12.982Z",
   "devdoc": {
     "details": "Wrappers around ERC20 operations that throw on failure (when the token contract returns false). Tokens that return no value (and instead revert or throw on failure) are also supported, non-reverting calls are assumed to be successful. To use this library you can add a `using SafeERC20 for IERC20;` statement to your contract, which allows you to call the safe operations as `token.safeTransfer(...)`, etc.",
     "kind": "dev",

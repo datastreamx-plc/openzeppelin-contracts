@@ -355,7 +355,7 @@
     "absolutePath": "/C/Users/RogerGangaSundararaj/Documents/GitHub/openzeppelin-contracts/contracts/token/ERC721/extensions/IERC721Enumerable.sol",
     "exportedSymbols": {
       "IERC165": [
-        16390
+        16414
       ],
       "IERC721": [
         12398
@@ -408,7 +408,7 @@
         ],
         "contractDependencies": [
           12398,
-          16390
+          16414
         ],
         "contractKind": "interface",
         "documentation": {
@@ -422,7 +422,7 @@
         "linearizedBaseContracts": [
           12980,
           12398,
-          16390
+          16414
         ],
         "name": "IERC721Enumerable",
         "nodeType": "ContractDefinition",
@@ -696,7 +696,7 @@
     "absolutePath": "/C/Users/RogerGangaSundararaj/Documents/GitHub/openzeppelin-contracts/contracts/token/ERC721/extensions/IERC721Enumerable.sol",
     "exportedSymbols": {
       "IERC165": [
-        16390
+        16414
       ],
       "IERC721": [
         12398
@@ -749,7 +749,7 @@
         ],
         "contractDependencies": [
           12398,
-          16390
+          16414
         ],
         "contractKind": "interface",
         "documentation": {
@@ -763,7 +763,7 @@
         "linearizedBaseContracts": [
           12980,
           12398,
-          16390
+          16414
         ],
         "name": "IERC721Enumerable",
         "nodeType": "ContractDefinition",
@@ -1039,7 +1039,7 @@
   },
   "networks": {},
   "schemaVersion": "3.2.3",
-  "updatedAt": "2021-03-26T11:30:52.922Z",
+  "updatedAt": "2021-03-26T13:45:13.038Z",
   "devdoc": {
     "details": "See https://eips.ethereum.org/EIPS/eip-721",
     "kind": "dev",
