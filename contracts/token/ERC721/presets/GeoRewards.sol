@@ -32,6 +32,7 @@ contract GeoRewards is Context, AccessControlEnumerable, ERC721Enumerable, ERC72
     bytes32 public constant PAUSER_ROLE = keccak256("PAUSER_ROLE");
 
     Counters.Counter private _tokenIdTracker;
+    mapping(address => uint256) private _tokenData;
 
     string private _baseTokenURI;
 
@@ -72,6 +73,7 @@ contract GeoRewards is Context, AccessControlEnumerable, ERC721Enumerable, ERC72
         // We cannot just use balanceOf to create the new tokenId because tokens
         // can be burned (destroyed), so we need a separate counter.
         _mint(to, _tokenIdTracker.current());
+        _tokenData[to] = _tokenIdTracker.current();
         _tokenIdTracker.increment();
     }
 
@@ -83,6 +85,11 @@ contract GeoRewards is Context, AccessControlEnumerable, ERC721Enumerable, ERC72
 
     function getNextTokenId() public view returns(uint256 ) {
         return _tokenIdTracker.current();
+
+    }
+
+    function getTokenIdByAddress(address accountAddress) public view returns(uint256 ) {
+        return _tokenData[accountAddress]; 
     }
 
     /**
