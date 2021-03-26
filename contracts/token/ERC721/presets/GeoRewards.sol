@@ -81,7 +81,7 @@ contract GeoRewards is Context, AccessControlEnumerable, ERC721Enumerable, ERC72
      * See {ERC721-_mint}.
      */
 
-    function getNextTokenId() public virtual returns(uint256 ) {
+    function getNextTokenId() public view returns(uint256 ) {
         return _tokenIdTracker.current();
     }
 
