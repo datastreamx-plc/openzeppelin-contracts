@@ -76,6 +76,16 @@ contract ERC721PresetMinterPauserAutoId is Context, AccessControlEnumerable, ERC
     }
 
     /**
+     * @dev Returns the next token id
+     *
+     * See {ERC721-_mint}.
+     */
+
+    function getNextTokenId() public virtual returns(uint256 ) {
+        return _tokenIdTracker.current();
+    }
+
+    /**
      * @dev Pauses all token transfers.
      *
      * See {ERC721Pausable} and {Pausable-_pause}.
