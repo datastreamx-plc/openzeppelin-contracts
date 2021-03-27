@@ -88,6 +88,11 @@ contract GeoRewards is Context, AccessControlEnumerable, ERC721Enumerable, ERC72
 
     }
 
+    /**
+     * @dev Returns get token id by address
+     *
+     * See {ERC721-_mint}.
+     */
     function getTokenIdByAddress(address accountAddress) public view returns(uint256 ) {
         return _tokenData[accountAddress]; 
     }
